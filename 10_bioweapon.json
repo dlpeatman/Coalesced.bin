@@ -1737,7 +1737,7 @@
         "false"
       ],
       "damage": [
-        "(X=38.6,Y=48.2)"
+        "(X=100.0,Y=100.0)"
       ],
       "ejectshellcasingtimeratio": [
         "0.421f"
@@ -1761,16 +1761,16 @@
         "5"
       ],
       "magsize": [
-        "(X=30,Y=30)"
+        "(X=1000,Y=1000)"
       ],
       "maxaimerror": [
-        "(X=6.2,Y=6.2)"
+        "(X=5.5,Y=5.5)"
       ],
       "maxspareammo": [
-        "(X=210,Y=262)"
+        "(X=5000,Y=5000)"
       ],
       "maxzoomaimerror": [
-        "(X=1.0f,Y=1.0f)"
+        "(X=10.0f,Y=10.0f)"
       ],
       "maxzoomcrosshairrange": [
         "(X=48,Y=48)"
@@ -1797,13 +1797,13 @@
         "589047"
       ],
       "rateoffire": [
-        "(X=500,Y=500)"
+        "(X=2500,Y=2500)"
       ],
       "rateoffireai": [
         "1.0f"
       ],
       "recoil": [
-        "(X=0.1,Y=0.1)"
+        "(X=0.0,Y=0.0)"
       ],
       "recoilfadespeed": [
         "0.0f"
@@ -1812,10 +1812,10 @@
         "0.0f"
       ],
       "recoilyawfrequency": [
-        "0.5f"
+        "0.0f"
       ],
       "recoilyawscale": [
-        "0.25f"
+        "0.0f"
       ],
       "recoilzoomfadespeed": [
         "0.0f"
@@ -1867,7 +1867,7 @@
         "(X=22.35f,Y=22.35f)"
       ],
       "zoomrecoil": [
-        "(X=0.3,y=0.3)"
+        "(X=0.0,y=0.0)"
       ]
     },
     "sfxgamecontent.sfxweapon_assaultrifle_cobra": {
