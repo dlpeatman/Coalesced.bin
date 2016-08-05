@@ -1,0 +1,87 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\startup.int",
+  "sections": {
+    "general": {
+      "detecting": [
+        "Detecting 3D video devices, please wait..."
+      ],
+      "firsttime": [
+        "Unreal Engine First-Time Configuration"
+      ],
+      "recoverymode": [
+        "Unreal Engine Recovery Mode"
+      ],
+      "run": [
+        "Run!"
+      ],
+      "safemode": [
+        "Unreal Engine Safe Mode"
+      ],
+      "webpage": [
+        "http://unreal.epicgames.com/versions.htm"
+      ]
+    },
+    "iddialog_configpagedetail": {
+      "idc_configpagedetail": [
+        ""
+      ],
+      "idc_detailnote": [
+        "You may change these options from the game's \"Preferences\" window later, if you wish."
+      ],
+      "idc_detailprompt": [
+        "Based on your computer's speed, memory, and video card, the Unreal Engine has selected the following detail options in order to optimize performance."
+      ]
+    },
+    "iddialog_configpagefirsttime": {
+      "idc_configpagefirsttime": [
+        ""
+      ],
+      "idc_prompt": [
+        "The Unreal Engine is starting up for the first time.  If you experience any problems, please read the release notes in the \"Programs / Unreal Tournament\" section of the Windows \"Start\" menu."
+      ]
+    },
+    "iddialog_configpagesafemode": {
+      "idc_configpagesafemode": [
+        ""
+      ],
+      "idc_run": [
+        "Run Unreal Engine"
+      ],
+      "idc_safemode": [
+        "Run Unreal Engine in safe mode - for troubleshooting"
+      ],
+      "idc_safemodeprompt": [
+        "The previous time the Unreal Engine was run, it was not shut down properly.  In case the shut down was caused by a problem, you may use the options below for recovery."
+      ],
+      "idc_safemodeprompt2": [
+        "Unreal Engine safe mode options: If you are experiencing problems, you may use the options below for recovery."
+      ],
+      "idc_web": [
+        "Visit our Web site for troubleshooting tips"
+      ]
+    },
+    "iddialog_configpagesafeoptions": {
+      "idc_configpagesafeoptions": [
+        ""
+      ],
+      "idc_nojoy": [
+        "Disable joystick support"
+      ],
+      "idc_noprocessor": [
+        "Disable Pentium III/3DNow processor extensions"
+      ],
+      "idc_nosound": [
+        "Disable all sound"
+      ],
+      "idc_res": [
+        "Run in standard 640x480 resolution"
+      ],
+      "idc_resetconfig": [
+        "Reset all configuration options to defaults"
+      ],
+      "idc_safeoptions": [
+        "Safe mode options, for diagnosing problems"
+      ]
+    }
+  }
+}

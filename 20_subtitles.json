@@ -1,0 +1,10 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\subtitles.int",
+  "sections": {
+    "subtitles": {
+      "movieispaused": [
+        "PAUSED"
+      ]
+    }
+  }
+}

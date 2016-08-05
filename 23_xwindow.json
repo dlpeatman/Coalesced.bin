@@ -1,0 +1,16 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\xwindow.int",
+  "sections": {
+    "general": {
+      "propmulti": [
+        "`~ Properties (`~ selected)"
+      ],
+      "propnone": [
+        "Nothing Selected"
+      ],
+      "propsingle": [
+        "`~ Properties"
+      ]
+    }
+  }
+}

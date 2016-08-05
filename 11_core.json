@@ -1,0 +1,355 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\core.int",
+  "sections": {
+    "errors": {
+      "aborted": [
+        "Aborted"
+      ],
+      "abstract": [
+        "Can't create object `~: class `~ is abstract"
+      ],
+      "assert": [
+        "Assertion failed: `~ [File:`~] [Line: `~]"
+      ],
+      "badproperty": [
+        "'`~': Bad or missing property '`~'"
+      ],
+      "binaryformat": [
+        "The file '`~' contains unrecognizable data"
+      ],
+      "cannotsaveconformincompatibility": [
+        "Cannot save conformed package '`~' as it is incompatible with the original"
+      ],
+      "cannotsavepartiallyloaded": [
+        "Cannot save package '`~' as it has only been partially loaded"
+      ],
+      "cannotsavewitholderversion": [
+        "Cannot save package '`~' as current engine version is older than version the package was originally saved with."
+      ],
+      "confignotfound": [
+        "Can't find '`~' in configuration file section=`~ key=`~"
+      ],
+      "cookedpackagedversionolderthanenginepackagefilecookedcontentversion": [
+        "Unable to run as package was cooked with an older version of the engine. Please recook: (`~) CurrEngineVersion: `~  VersionSavedWith: `~"
+      ],
+      "debug": [
+        "Debug assertion failed: `~ [File:`~] [Line: `~]"
+      ],
+      "emptypackagename": [
+        "Attempted to create a package with an empty package name."
+      ],
+      "error_actorcomponentdestroyedwithoutremoval": [
+        "Actor component (`~) destroyed without removal from scene"
+      ],
+      "error_filenameistoolongforcooking": [
+        "Filename '`~' is too long; this may interfere with cooking for consoles.  Unreal filenames should be no longer than `~ characters."
+      ],
+      "exec": [
+        "Unrecognized command"
+      ],
+      "exportindex": [
+        "Bad export index `~/`~"
+      ],
+      "exportopen": [
+        "Error exporting `~: couldn't open file '`~'"
+      ],
+      "exportwrite": [
+        "Error exporting `~: couldn't write file '`~'"
+      ],
+      "failedcreate": [
+        "`~ `~ not found for creation"
+      ],
+      "failedimport": [
+        "Can't find `~ in file '`~'"
+      ],
+      "failedimportprivate": [
+        "Can't import private object `~ `~"
+      ],
+      "failedload": [
+        "Failed to load '`~': `~"
+      ],
+      "failedloadobject": [
+        "Failed to load '`~ `~.`~': `~"
+      ],
+      "failedloadpackage": [
+        "Failed loading package: `~"
+      ],
+      "failedsavefile": [
+        "Error saving file '`~': `~"
+      ],
+      "failedsaveothermappackage": [
+        "Can't save `~: Graph is linked to object `~ in external map package"
+      ],
+      "failedsaveprivate": [
+        "Can't save `~: Graph is linked to external private object `~"
+      ],
+      "filenametopackage": [
+        "Can't convert filename '`~' to package name"
+      ],
+      "filenotfound": [
+        "Can't find file '`~'"
+      ],
+      "fileversiondump": [
+        "Unable to load package (`~) PackageVersion `4~, MaxExpected `4~ : LicenseePackageVersion `4~, MaxExpected `4~."
+      ],
+      "history": [
+        "History"
+      ],
+      "importindex": [
+        "Bad import index `~/`~"
+      ],
+      "inireadonly": [
+        "The file `~ is write protected; settings cannot be saved"
+      ],
+      "linkedtoobjectsinothermap_findculpritq": [
+        "Can't save `~: Graph is linked to object in external map package.  Try to find the chain of references to that object (may take some time)?"
+      ],
+      "linkedtoprivateobjects_findculpritq": [
+        "Can't save `~: Graph is linked to external private object.  Try to find the chain of references to that object (may take some time)?"
+      ],
+      "linkerexists": [
+        "Linker for '`~' already exists"
+      ],
+      "loadclassmismatch": [
+        "`~ is not a child class of `~"
+      ],
+      "loadeddeprecatedclassinstance": [
+        "`~: class `~ has been deprecated."
+      ],
+      "loadingtransientinstance": [
+        "Attempting to load an instance of a transient class from disk - Package:'`~'  Object:'`~'  Class:'`~'"
+      ],
+      "misingini": [
+        "Missing .ini file: `~"
+      ],
+      "missingexeconfigfileerror": [
+        "Loading the editor with managed code requires the existance of the '`~' file which was not found.  This file is necessary in order for the managed runtime to locate dependent assembly files.  The application will now exit."
+      ],
+      "nativerebuildrequired": [
+        "Unable to create object of type '`~': native class layout differs from script layout.  Please build C++ before continuing to avoid data corruption."
+      ],
+      "nofindimport": [
+        "Can't find file '`~' for import"
+      ],
+      "noreplace": [
+        "Can't replace `~ with `~"
+      ],
+      "notdll": [
+        "'`~' is not a DLL package; can't find export '`~'"
+      ],
+      "notindll": [
+        "Can't find '`~' in '`~.lib'"
+      ],
+      "notpackaged": [
+        "Object is not packaged: `~ `~"
+      ],
+      "notwithin": [
+        "Object `~ `~ created in `~ instead of `~"
+      ],
+      "objectnotfound": [
+        "Failed to find object '`~ `~.`~'"
+      ],
+      "oldversionfile": [
+        "The file `~ was saved by a previous version which is not backwards compatible with this one."
+      ],
+      "openfailed": [
+        "Error opening file '`~' (`~)."
+      ],
+      "operationdisallowedoncookedcontent": [
+        "The requested operation cannot be performed on a cooked package."
+      ],
+      "outofmemory": [
+        "Ran out of virtual memory. To prevent this condition, you must free up more space on your primary hard disk."
+      ],
+      "packagebiggerthansoftlimit": [
+        "Package `~ was successfully saved and is `~ MByte in size.  This exceeds the recommended package size.  Please split it up to be less than `~ MByte."
+      ],
+      "packagenamednone": [
+        "Attempted to create a package named 'None'"
+      ],
+      "packagenotfound": [
+        "Can't find file for package '`~' while loading `~"
+      ],
+      "packageresolvefailed": [
+        "Can't resolve package name"
+      ],
+      "packageversion": [
+        "Package '`~' version mismatch"
+      ],
+      "password": [
+        "Password not recognized"
+      ],
+      "ps3supportnotloaded": [
+        "The PS3 tools are not installed; objects may have been saved uncooked! Please install the latest PS3 SDK!"
+      ],
+      "question": [
+        "Question"
+      ],
+      "readeof": [
+        "Read beyond end of file"
+      ],
+      "readfilefailed": [
+        "Failed to read file '`~' for import"
+      ],
+      "replacenopostload_f": [
+        "Can't replace objects which need to be post-loaded while still de-serializing objects: `~"
+      ],
+      "replacenotfullyloaded_f": [
+        "Attempting to replace an object that hasn't been fully loaded: `~"
+      ],
+      "sandbox": [
+        "Package '`~' is not accessible in this sandbox"
+      ],
+      "savedwithnewerversion": [
+        "Package '`~' has been saved with engine version newer than current and therefore won't be possible to save. CurrEngineVersion: `~  VersionSavedWith: `~"
+      ],
+      "savewarning": [
+        "Error saving '`~'"
+      ],
+      "seekfailed": [
+        "Error seeking file"
+      ],
+      "serialsize": [
+        "`~: Serial size mismatch: Got `~, Expected `~"
+      ],
+      "transientimport": [
+        "Transient object imported: `~"
+      ],
+      "unknown": [
+        "Unknown Error"
+      ],
+      "urlfailed": [
+        "Failed launching URL"
+      ],
+      "warning": [
+        "Warning"
+      ],
+      "writefailed": [
+        "Error writing to file"
+      ],
+      "xbox360supportnotloaded": [
+        "The Xbox360 tools are not installed; objects may have been saved uncooked! Please the install the latest XDK!"
+      ]
+    },
+    "general": {
+      "copyright": [
+        "Copyright 1998-2010 Epic Games, Inc. All Rights Reserved."
+      ],
+      "engine": [
+        "Unreal Engine"
+      ],
+      "false": [
+        "False"
+      ],
+      "no": [
+        "No"
+      ],
+      "none": [
+        "None"
+      ],
+      "product": [
+        "Unreal"
+      ],
+      "true": [
+        "True"
+      ],
+      "yes": [
+        "Yes"
+      ]
+    },
+    "helpcommandlet": {
+      "helpdescription": [
+        "This commandlet displays help information on other commandlets"
+      ],
+      "helpparamdescriptions[0]": [
+        "Lists all commandlets that are available"
+      ],
+      "helpparamdescriptions[1]": [
+        "Displays help information for the specified commandlet"
+      ],
+      "helpparamdescriptions[2]": [
+        "Launches a browser with the URL of the web page that documents the commandlet"
+      ],
+      "helpparamnames[0]": [
+        "list"
+      ],
+      "helpparamnames[1]": [
+        "commandlet name"
+      ],
+      "helpparamnames[2]": [
+        "webhelp"
+      ],
+      "helpusage": [
+        "gamename.exe help <list | commandletname | webhelp commandletname>"
+      ],
+      "helpweblink": [
+        "https://udn.epicgames.com/bin/view/Three/HelpCommandlet"
+      ]
+    },
+    "language": {
+      "langid": [
+        "9"
+      ],
+      "language": [
+        "English (International)"
+      ],
+      "sublangid": [
+        "1"
+      ]
+    },
+    "progress": {
+      "finalizing": [
+        "Finalizing: `~..."
+      ],
+      "loading": [
+        "Loading file: `~..."
+      ],
+      "saving": [
+        "Saving file: `~..."
+      ]
+    },
+    "public": {
+      "object": [
+        "(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)"
+      ]
+    },
+    "query": {
+      "checkoutperforce": [
+        "'`~' is marked read-only.  Should I try to check it out of Perforce?"
+      ],
+      "name": [
+        "Name:"
+      ],
+      "oldversion": [
+        "The file `~ was saved by a previous version which is not backwards compatible with this one.  Reading it will likely fail, and may cause a crash. Do you want to try anyway?"
+      ],
+      "overwrite": [
+        "The file '`~' needs to be updated.  Do you want to overwrite the existing version?"
+      ],
+      "overwritemultiple": [
+        "These files need to be updated: `~\nDo you want to overwrite the existing versions?"
+      ],
+      "overwritereadonly": [
+        "'`~' is marked read-only.  Would you like to try to force overwriting it?"
+      ],
+      "packagefailedtoopen": [
+        "The package '`~' failed to open. Should this commandlet continue operation, ignoring further load errors? Continuing may have adverse effects (object references may be lost)."
+      ],
+      "passdlg": [
+        "Identity Check"
+      ],
+      "passprompt": [
+        "Enter your name and password:"
+      ],
+      "password": [
+        "Password:"
+      ],
+      "removenativeclass": [
+        "Native class with no script detected: '`~'. Should this class be removed from static initialization? (If you haven't recently removed a native script class, make sure that the class declaration includes CLASS_Intrinsic.)"
+      ],
+      "warning_forcedelete": [
+        "Deleting `~.\n\nForcing delete on a referenced object is potentially dangerous and could cause data corruption.  The following objects may have invalid references if you proceed:\n `~.\n\nDo you wish to delete this referenced object?"
+      ]
+    }
+  }
+}

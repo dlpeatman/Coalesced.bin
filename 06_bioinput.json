@@ -1,0 +1,883 @@
+{
+  "name": "..\\..\\biogame\\config\\bioinput.ini",
+  "sections": {
+    "engine.console": {
+      "consolekey": [
+        "Tilde"
+      ],
+      "historybot": [
+        "-1"
+      ],
+      "manualautocompletelist": [
+        "(Command=\"Exit\",Desc=\"Exit (Exits the game)\")",
+        "(Command=\"Open\",Desc=\"Open <MapName> (Opens the specified map)\")",
+        "(Command=\"DisplayAll\",Desc=\"DisplayAll <ClassName> <PropertyName> (Display property values for instances of classname)\")",
+        "(Command=\"DisplayAllState\",Desc=\"DisplayAllState <ClassName> (Display state names for all instances of classname)\")",
+        "(Command=\"DisplayClear\",Desc=\"DisplayClear (Clears previous DisplayAll entries)\")",
+        "(Command=\"FlushPersistentDebugLines\",Desc=\"FlushPersistentDebugLines (Clears persistent debug line cache)\")",
+        "(Command=\"GetAll \",Desc=\"GetAll <ClassName> <PropertyName> <Name=ObjectInstanceName> (Log property values of all instances of classname)\")",
+        "(Command=\"GetAllState\",Desc=\"GetAllState <ClassName> (Log state names for all instances of classname)\")",
+        "(Command=\"Obj List \",Desc=\"Obj List <Class=ClassName> <Type=MetaClass> <Outer=OuterObject> <Package=InsidePackage> <Inside=InsideObject>\")",
+        "(Command=\"Obj ListContentRefs\",Desc=\"Obj ListContentRefs <Class=ClassName> <ListClass=ClassName>\")",
+        "(Command=\"Obj Classes\",Desc=\"Obj Classes (Shows all classes)\")",
+        "(Command=\"EditActor\",Desc=\"EditActor <Class=ClassName> or <Name=ObjectName> or TRACE\")",
+        "(Command=\"EditDefault\",Desc=\"EditDefault <Class=ClassName>\")",
+        "(Command=\"EditObject\",Desc=\"EditObject <Class=ClassName> or <Name=ObjectName> or <ObjectName>\")",
+        "(Command=\"ReloadCfg \",Desc=\"ReloadCfg <Class/ObjectName> (Reloads config variables for the specified object/class)\")",
+        "(Command=\"ReloadLoc \",Desc=\"ReloadLoc <Class/ObjectName> (Reloads localized variables for the specified object/class)\")",
+        "(Command=\"Set \",Desc=\"Set <ClassName> <PropertyName> <Value> (Sets property to value on objectname)\")",
+        "(Command=\"Show BOUNDS\",Desc=\"Show BOUNDS (Displays bounding boxes for all visible objects)\")",
+        "(Command=\"Show BSP\",Desc=\"Show BSP (Toggles BSP rendering)\")",
+        "(Command=\"Show COLLISION\",Desc=\"Show COLLISION (Toggles collision rendering)\")",
+        "(Command=\"Show COVER\",Desc=\"Show COVER (Toggles cover rendering)\")",
+        "(Command=\"Show DECALS\",Desc=\"Show DECALS (Toggles decal rendering)\")",
+        "(Command=\"Show FOG\",Desc=\"Show FOG (Toggles fog rendering)\")",
+        "(Command=\"Show LEVELCOLORATION\",Desc=\"Show LEVELCOLORATION (Toggles per-level coloration)\")",
+        "(Command=\"Show PATHS\",Desc=\"Show PATHS (Toggles path rendering)\")",
+        "(Command=\"Show POSTPROCESS\",Desc=\"Show POSTPROCESS (Toggles post process rendering)\")",
+        "(Command=\"Show SKELMESHES\",Desc=\"Show SKELMESHES (Toggles skeletal mesh rendering)\")",
+        "(Command=\"Show TERRAIN\",Desc=\"Show TERRAIN (Toggles terrain rendering)\")",
+        "(Command=\"Show VOLUMES\",Desc=\"Show VOLUMES (Toggles volume rendering)\")",
+        "(Command=\"Show SPLINES\",Desc=\"Show SPLINES (Toggles spline rendering)\")",
+        "(Command=\"Stat FPS\",Desc=\"Stat FPS (Shows FPS counter)\")",
+        "(Command=\"Stat UNIT\",Desc=\"Stat UNIT (Shows hardware unit framerate)\")",
+        "(Command=\"Stat LEVELS\",Desc=\"Stat LEVELS (Displays level streaming info)\")",
+        "(Command=\"Stat GAME\",Desc=\"Stat GAME (Displays game performance stats)\")",
+        "(Command=\"Stat MEMORY\",Desc=\"Stat MEMORY (Displays memory stats)\")",
+        "(Command=\"Stat XBOXMEMORY\",Desc=\"Stat XBOXMEMORY (Displays Xbox memory stats while playing on PC)\")",
+        "(Command=\"Stat PHYSICS\",Desc=\"Stat PHYSICS (Displays physics performance stats)\")",
+        "(Command=\"Stat STREAMING\",Desc=\"Stat STREAMING\")",
+        "(Command=\"Stat COLLISION\",Desc=\"Stat COLLISION\")",
+        "(Command=\"Stat PARTICLES\",Desc=\"Stat PARTICLES\")",
+        "(Command=\"Stat SCRIPT\",Desc=\"Stat SCRIPT\")",
+        "(Command=\"Stat AUDIO\",Desc=\"Stat AUDIO\")",
+        "(Command=\"Stat ANIM\",Desc=\"Stat ANIM\")",
+        "(Command=\"Stat NET\",Desc=\"Stat NET\")",
+        "(Command=\"Stat LIST\",Desc=\"Stat LIST Groups/Sets/Group (List groups of stats, saved sets, or specific stats within a specified group)\")",
+        "(Command=\"ListTextures\",Desc=\"ListTextures (Lists all loaded textures and their current memory footprint)\")",
+        "(Command=\"RestartLevel\",Desc=\"RestartLevel (restarts the level)\")",
+        "(Command=\"ListSounds\",Desc=\"ListSounds (Lists all the loaded sounds and their memory footprint)\")",
+        "(Command=\"ListWaves\",Desc=\"ListWaves (List the WaveInstances and whether they have a source)\")",
+        "(Command=\"ListSoundClasses\",Desc=\"ListSoundClasses (Lists a summary of loaded sound collated by class)\")",
+        "(Command=\"ListSoundModes\",Desc=\"ListSoundModes (Lists loaded sound modes)\")",
+        "(Command=\"ListAudioComponents\",Desc=\"ListAudioComponents (Dumps a detailed list of all AudioComponent objects)\")",
+        "(Command=\"ListSoundDurations\",Desc=\"ListSoundDurations\")",
+        "(Command=\"PlaySoundCue\",Desc=\"PlaySoundCue (Lists a summary of loaded sound collated by class)\")",
+        "(Command=\"PlaySoundWave\",Desc=\"PlaySoundWave\")",
+        "(Command=\"SetSoundMode\",Desc=\"SetSoundMode <ModeName>\")",
+        "(Command=\"DisableLowPassFilter\",Desc=\"DisableLowPassFilter\")",
+        "(Command=\"DisableEQFilter\",Desc=\"DisableEQFilter\")",
+        "(Command=\"IsolateDryAudio\",Desc=\"IsolateDryAudio\")",
+        "(Command=\"IsolateReverb\",Desc=\"IsolateReverb\")",
+        "(Command=\"ResetSoundState\",Desc=\"ResetSoundState (Resets volumes to default and removes test filters)\")",
+        "(Command=\"ModifySoundClass\",Desc=\"ModifySoundClass <SoundClassName> Vol=<new volume>\")",
+        "(Command=\"DisableAllScreenMessages\",Desc=\"Disables all on-screen warnings/messages\")",
+        "(Command=\"EnableAllScreenMessages\",Desc=\"Enables all on-screen warnings/messages\")",
+        "(Command=\"ToggleAllScreenMessages\",Desc=\"Toggles display state of all on-screen warnings/messages\")",
+        "(Command=\"CaptureMode\",Desc=\"Toggles display state of all on-screen warnings/messages\")"
+      ],
+      "maxscrollbacksize": [
+        "1024"
+      ],
+      "typekey": [
+        "Tab"
+      ]
+    },
+    "engine.debugcameracontroller": {
+      "bshowselectedinfo": [
+        "true"
+      ],
+      "primarykey": [
+        "LeftMouseButton"
+      ],
+      "secondarykey": [
+        "RightMouseButton"
+      ],
+      "unselectkey": [
+        "Escape"
+      ]
+    },
+    "engine.debugcamerainput": {
+      "bindings": [
+        "(Name=\"MoveUp\",Command=\"Axis aUp Speed=1.0\")",
+        "(Name=\"MoveDown\",Command=\"Axis aUp Speed=-1.0\")",
+        "(Name=\"MoveForward\",Command=\"Axis aBaseY Speed=1.0\")",
+        "(Name=\"MoveBackward\",Command=\"Axis aBaseY Speed=-1.0\")",
+        "(Name=\"TurnLeft\",Command=\"Axis aBaseX Speed=-200.0 AbsoluteAxis=100\")",
+        "(Name=\"TurnRight\",Command=\"Axis aBaseX  Speed=+200.0 AbsoluteAxis=100\")",
+        "(Name=\"StrafeLeft\",Command=\"Axis aStrafe Speed=-1.0\")",
+        "(Name=\"StrafeRight\",Command=\"Axis aStrafe Speed=+1.0\")",
+        "(Name=\"Q\",Command=\"MoveDown\")",
+        "(Name=\"E\",Command=\"MoveUp\")",
+        "(Name=\"W\",Command=\"MoveForward\")",
+        "(Name=\"S\",Command=\"MoveBackward\")",
+        "(Name=\"A\",Command=\"StrafeLeft\")",
+        "(Name=\"D\",Command=\"StrafeRight\")",
+        "(Name=\"F\",Command=\"FreezeRendering\")",
+        "(Name=\"MouseX\",Command=\"Count bXAxis | Axis aMouseX\")",
+        "(Name=\"MouseY\",Command=\"Count bYAxis | Axis aMouseY\")",
+        "(Name=\"Left\",Command=\"TurnLeft\")",
+        "(Name=\"Right\",Command=\"TurnRight\")",
+        "(Name=\"c\",Command=\"ToggleDebugCamera\",Control=False,Shift=False,Alt=True)",
+        "(Name=\"LeftShift\",Command=\"MoreSpeed | OnRelease NormalSpeed\",Control=False,Shift=False,Alt=False)",
+        "(Name=\"XboxTypeS_LeftThumbstick\",Command=\"ToggleDebugCamera\")",
+        "(Name=\"XboxTypeS_LeftX\",Command=\"Axis aStrafe Speed=1.0 DeadZone=0.3\")",
+        "(Name=\"XboxTypeS_LeftY\",Command=\"Axis aBaseY Speed=1.0 DeadZone=0.3\")",
+        "(Name=\"XboxTypeS_RightX\",Command=\"Axis aTurn Speed=1.0 DeadZone=0.2\")",
+        "(Name=\"XboxTypeS_RightY\",Command=\"Axis aLookup Speed=0.8 DeadZone=0.2\")",
+        "(Name=\"XboxTypeS_LeftTrigger\",Command=\"MoveDown\")",
+        "(Name=\"XboxTypeS_RightTrigger\",Command=\"MoveUp\")",
+        "(Name=\"XboxTypeS_A\",Command=\"SetFreezeRendering\")",
+        "(Name=\"XboxTypeS_B\",Command=\"MoreSpeed | OnRelease NormalSpeed\")"
+      ]
+    },
+    "engine.playerinput": {
+      "benablemousesmoothing": [
+        "true"
+      ],
+      "bindings": [
+        "(Name=\"Escape\",Command=\"CloseEditorViewport\")",
+        "(Name=\"XboxTypeS_RightShoulder\",Command=\"GhostMoveUp 1 | OnRelease GhostMoveUp 0\")",
+        "(Name=\"XBoxTypeS_LeftShoulder\",Command=\"GhostMoveDown 1 | OnRelease GhostMoveDown 0\")",
+        "(Name=\"Up\",Command=\"GhostMoveUp 1 | OnRelease GhostMoveUp 0\" )",
+        "(Name=\"Down\",Command=\"GhostMoveDown 1 | OnRelease GhostMoveDown 0\" )",
+        "( Name=\"XboxTypeS_Back\", Command=\"ReportCustomEvent\" )",
+        "( Name=\"P\", Command=\"ReportCustomEvent\" )"
+      ],
+      "doubleclicktime": [
+        "0.250000"
+      ],
+      "lookrightscale": [
+        "250"
+      ],
+      "lookupscale": [
+        "-175"
+      ],
+      "mousesensitivity": [
+        "1.0"
+      ],
+      "moveforwardspeed": [
+        "1200"
+      ],
+      "movestrafespeed": [
+        "1200"
+      ]
+    },
+    "engine.uiinputconfiguration": {
+      "axisemulationdefinitions": [
+        "(AxisInputKey=MouseX,AdjacentAxisInputKey=MouseY,bEmulateButtonPress=False)",
+        "(AxisInputKey=MouseY,AdjacentAxisInputKey=MouseX,bEmulateButtonPress=False)",
+        "(AxisInputKey=XboxTypeS_LeftX,AdjacentAxisInputKey=XboxTypeS_LeftY,bEmulateButtonPress=True,InputKeyToEmulate[0]=Gamepad_LeftStick_Right,InputKeyToEmulate[1]=Gamepad_LeftStick_Left)",
+        "(AxisInputKey=XboxTypeS_LeftY,AdjacentAxisInputKey=XboxTypeS_LeftX,bEmulateButtonPress=True,InputKeyToEmulate[0]=Gamepad_LeftStick_Up,InputKeyToEmulate[1]=Gamepad_LeftStick_Down)",
+        "(AxisInputKey=XboxTypeS_RightX,AdjacentAxisInputKey=XboxTypeS_RightY,bEmulateButtonPress=True,InputKeyToEmulate[0]=Gamepad_RightStick_Right,InputKeyToEmulate[1]=Gamepad_RightStick_Left)",
+        "(AxisInputKey=XboxTypeS_RightY,AdjacentAxisInputKey=XboxTypeS_RightX,bEmulateButtonPress=True,InputKeyToEmulate[0]=Gamepad_RightStick_Down,InputKeyToEmulate[1]=Gamepad_RightStick_Up)"
+      ]
+    },
+    "iniversion": {
+      "0": [
+        "3543241527.000000"
+      ],
+      "1": [
+        "3967581594.000000"
+      ],
+      "2": [
+        "2264387171.000000"
+      ],
+      "3": [
+        "3808678901.000000"
+      ]
+    },
+    "sfxgame.bioplayerinput": {
+      "busemousedampening": [
+        "true"
+      ],
+      "crit_level_load": [
+        "(Name=\"Entry Menu\",Command=\"at EntryMenu\")"
+      ],
+      "debugmenu": [
+        "(Name=\"Level Skip Commands >\",Command=\"showsubmenu LEVELSKIP\")"
+      ],
+      "dev": [
+        "(Name=\"Eric Combat Test Map\",Command=\"AT ericCombat\")"
+      ],
+      "guideadzone": [
+        "0.4"
+      ],
+      "levelskip": [
+        "(Name=\"Garrus Loyalty\",Command=\"ce endGrL\")"
+      ],
+      "m_fquickordertime": [
+        "0.2"
+      ]
+    },
+    "sfxgame.sfxconsole": {
+      "benableui": [
+        "False"
+      ],
+      "historybot": [
+        "5"
+      ],
+      "historycur": [
+        "4"
+      ],
+      "historytop": [
+        "4"
+      ],
+      "mappathsforautocomplete": [
+        "Content\\Maps",
+        "TestContent\\Maps\\EricCombat"
+      ]
+    },
+    "sfxgame.sfxgamemodeaidebug": {
+      "bindings": [
+        "(Name=\"Up\", Command=\"ZoomCamera\" )",
+        "(Name=\"Down\", Command=\"UnzoomCamera\" )",
+        "(Name=\"Right\", Command=\"NextPawn\" )",
+        "(Name=\"Left\", Command=\"PrevPawn\" )",
+        "(Name=\"SpaceBar\", Command=\"ToggleAIPause\" )",
+        "( Name=\"Zero\", Command=\"ViewConstraint 0\" )",
+        "( Name=\"One\", Command=\"ViewConstraint 1\" )",
+        "( Name=\"Two\", Command=\"ViewConstraint 2\" )",
+        "( Name=\"Three\", Command=\"ViewConstraint 3\" )",
+        "( Name=\"Four\", Command=\"ViewConstraint 4\" )",
+        "( Name=\"Five\", Command=\"ViewConstraint 5\" )",
+        "( Name=\"Six\", Command=\"ViewConstraint 6\" )",
+        "( Name=\"Seven\", Command=\"ViewConstraint 7\" )",
+        "( Name=\"Eight\", Command=\"ViewConstraint 8\" )",
+        "( Name=\"Nine\", Command=\"ViewConstraint 9\" )",
+        "( Name=\"R\", Command=\"ViewCoverEval\" )",
+        "( Name=\"A\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeatlas": {
+      "bindings": [
+        "( Name=\"LeftMouseButton\", Command=\"Shared_Shoot\" )",
+        "( Name=\"RightMouseButton\", Command=\"Shared_Aim\" )",
+        "( Name=\"SpaceBar\",Command=\"Shared_Action\")",
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"LeftShift\", Command=\"PC_EnterCommandMenu\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeatlas_00000409": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"F\", Command=\"Shared_Melee\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"X\", Command=\"Shared_ExitAtlas\" )",
+        "( Name=\"Q\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"Z\", Command=\"Shared_SquadAttack\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeatlas_0000040c": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"Z\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"F\", Command=\"Shared_Melee\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"X\", Command=\"Shared_ExitAtlas\" )",
+        "( Name=\"A\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"W\", Command=\"Shared_SquadAttack\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodebase": {
+      "bindings": [
+        "( Name=\"Shared_Shoot\", Command=\"SwapWeaponIfEmpty | FireWeapon | OnRelease StopFiringWeapon\" )",
+        "( Name=\"Shared_Aim\", Command=\"SwapWeaponIfEmpty | TightAim | OnRelease StopTightAim\" )",
+        "( Name=\"Shared_Action\", Command=\"Exclusive TryStandingJump | Exclusive Used | OnRelease StormOff | OnHold 0.2 StormOn | Exclusive PressAction | OnTap 0.3 TapAction | OnHold 0.3 HoldAction\")",
+        "( Name=\"Shared_Holster\", Command=\"TryHolster\" )",
+        "( Name=\"Shared_Melee\", Command=\"OnTap 0.3 TryMelee | LeaveWorld | OnHold 0.3 TryHeavyMelee\" )",
+        "( Name=\"Shared_SquadAttack\", Command=\"SquadCommand_Attack\" )",
+        "( Name=\"Shared_SquadFollow\", Command=\"SquadCommand_Follow\" )",
+        "( Name=\"Shared_SquadMove1\", Command=\"SquadCommand_Move1\" )",
+        "( Name=\"Shared_SquadMove2\", Command=\"SquadCommand_Move2\" )",
+        "( Name=\"Shared_Menu\", Command=\"ShowMenu\" )",
+        "( Name=\"Shared_ConvSelect\", Command=\"SelectResponse\" )",
+        "( Name=\"Shared_ConvSkip\", Command=\"SkipConversation\" )",
+        "( Name=\"Shared_ConvIntRenegade\", Command=\"InterruptRenegade\" )",
+        "( Name=\"Shared_ConvIntParagon\", Command=\"InterruptParagon\" )",
+        "( Name=\"Shared_CineSkip\", Command=\"SkipCinematic\" )",
+        "( Name=\"Shared_MovieSkip\", Command=\"SkipMovie\" )",
+        "( Name=\"Shared_GalaxyScan\", Command=\"StartScanning | OnRelease StopScanning\" )",
+        "( Name=\"Shared_GalaxySystemScan\", Command=\"ScanSystem\" )",
+        "( Name=\"Shared_GalaxyProbe\", Command=\"LaunchProbe\" )",
+        "( Name=\"Shared_PulseRadarDisplay\", Command=\"PulseRadarDisplay 1.0\")",
+        "( Name=\"Shared_PulseObjectiveDisplay\", Command=\"PulseObjectiveDisplay\")",
+        "( Name=\"Shared_GalaxyTabRight\", Command=\"TabRight\" )",
+        "( Name=\"Shared_GalaxyTabLeft\", Command=\"TabLeft\" )",
+        "( Name=\"Shared_POI\", Command=\"ActivatePOI | OnRelease DeactivatePOI\" )",
+        "( Name=\"Shared_ExitAtlas\", Command=\"ExitAtlas\" )",
+        "( Name=\"Shared_ExitMountedGun\", Command=\"ExitVehicle\" )",
+        "( Name=\"Shared_AdvanceSlideshowForward\", Command=\"SlideshowAdvance true\")",
+        "( Name=\"Shared_AdvanceSlideshowBackward\", Command=\"SlideshowAdvance false\")",
+        "( Name=\"Shared_ExitSlideshow\", Command=\"SlideshowExit\")",
+        "( Name=\"Shared_CoverTurn\", Command=\"TryCoverTurn\" )",
+        "( Name=\"Vehicle_Quit\", Command=\"LeaveWorld\" )",
+        "( Name=\"Vehicle_Camera\", Command=\"Toggle bAlternateCamera\" )",
+        "( Name=\"Shared_CastPower0\", Command=\"CastPower 0\" )",
+        "( Name=\"Shared_CastPower1\", Command=\"CastPower 1\" )",
+        "( Name=\"Shared_QuickSave\", Command=\"QuickSave\" )",
+        "( Name=\"Shared_ShowMap\", Command=\"Exclusive ActivatePOI | OnRelease DeactivatePOI | OnTap 0.2 ShowAreaMap | OnHold 0.2 HoldObjectiveDisplay | OnRelease StopObjectiveDisplay \")",
+        "( Name=\"Shared_HideMap\", Command=\"HideAreaMap\" )",
+        "( Name=\"Shared_MPToggleReady\", Command=\"MPToggleReady\" )",
+        "( Name=\"PC_StrafeLeft\", Command=\"Axis aStrafe Speed=-1.0\" )",
+        "( Name=\"PC_StrafeRight\", Command=\"Axis aStrafe Speed=+1.0\" )",
+        "( Name=\"PC_MoveForward\", Command=\"Axis aBaseY Speed=1.0\" )",
+        "( Name=\"PC_MoveBackward\", Command=\"Axis aBaseY Speed=-1.0\" )",
+        "( Name=\"PC_LookX\", Command=\"Count bXAxis | Axis aMouseX\" )",
+        "( Name=\"PC_LookY\", Command=\"Count bYAxis | Axis aMouseY\" )",
+        "( Name=\"PC_EnterCommandMenu\", Command=\"EnterCommandMenu\" )",
+        "( Name=\"PC_ExitCommandMenu\", Command=\"OnRelease ExitCommandMenu\" )",
+        "( Name=\"PC_CommandToggleCam\", Command=\"EnableCamera | OnRelease DisableCamera\" )",
+        "( Name=\"PC_NextWeapon\", Command=\"NextWeapon\" )",
+        "( Name=\"PC_PrevWeapon\", Command=\"PrevWeapon\" )",
+        "( Name=\"PC_SwapWeapon\", Command=\"TrySwapWeapon\" )",
+        "( Name=\"PC_Reload\", Command=\"SwapWeaponIfEmpty | TryReload\" )",
+        "( Name=\"PC_ConvHilight\", Command=\"HighlightDefaultResponse\" )",
+        "( Name=\"PC_HotKey1\", Command=\"UseAbility 0\" )",
+        "( Name=\"PC_HotKey2\", Command=\"UseAbility 1\" )",
+        "( Name=\"PC_HotKey3\", Command=\"UseAbility 2\" )",
+        "( Name=\"PC_HotKey4\", Command=\"UseAbility 3\" )",
+        "( Name=\"PC_HotKey5\", Command=\"UseAbility 4\" )",
+        "( Name=\"PC_HotKey6\", Command=\"UseAbility 5\" )",
+        "( Name=\"PC_HotKey7\", Command=\"UseAbility 6\" )",
+        "( Name=\"PC_HotKey8\", Command=\"UseAbility 7\" )",
+        "( Name=\"PC_QuickLoad\", Command=\"QuickLoad\" )",
+        "( Name=\"PC_GalaxyMouseStrafe\", Command=\"Axis aMouseX BIOGUI_EVENT_AXIS_MOUSE_X\" )",
+        "( Name=\"PC_GalaxyMouseMovement\", Command=\"Axis aMouseY BIOGUI_EVENT_AXIS_MOUSE_Y\" )",
+        "( Name=\"PC_GalaxyKeyStrafeLeft\", Command=\"Axis aGuiStrafe Speed=-1.0 EventID=2\" )",
+        "( Name=\"PC_GalaxyKeyStrafeRight\", Command=\"Axis aGuiStrafe Speed=+1.0 EventID=2\" )",
+        "( Name=\"PC_GalaxyKeyMoveForward\", Command=\"Axis aGuiBaseY Speed=+1.0 EventID=3\" )",
+        "( Name=\"PC_GalaxyKeyMoveBackward\", Command=\"Axis aGuiBaseY Speed=-1 EventID=3\" )",
+        "( Name=\"PC_GalaxyKeyRotateLeft\", Command=\"Repeat PlanetLeftRight 0.5\" )",
+        "( Name=\"PC_GalaxyKeyRotateRight\", Command=\"Repeat PlanetLeftRight -0.5\" )",
+        "( Name=\"Walking\", Command=\"EnableWalking | OnRelease DisableWalking\" )",
+        "( Name=\"PC_PushToTalk\", Command=\"VoicePushToTalkStart | OnRelease VoicePushToTalkEnd\" )",
+        "( Name=\"F4\", Command=\"Quit\", Alt=true )"
+      ],
+      "radarmapdisplaytime": [
+        "1.0"
+      ]
+    },
+    "sfxgame.sfxgamemodecinematic": {
+      "bindings": [
+        "( Name=\"SpaceBar\", Command=\"Shared_CineSkip\" )",
+        "( Name=\"Escape\", Command=\"Shared_CineSkip\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodecommand": {
+      "bindings": [
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"RightMouseButton\", Command=\"PC_CommandToggleCam\" )",
+        "( Name=\"LeftShift\", Command=\"PC_ExitCommandMenu\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodecommand_00000409": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"Z\", Command=\"Shared_SquadAttack\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodecommand_0000040c": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"W\", Command=\"Shared_SquadAttack\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeconversation": {
+      "bindings": [
+        "( Name=\"LeftMouseButton\",Command=\"Shared_ConvSelect | Shared_ConvIntRenegade\")",
+        "( Name=\"RightMouseButton\",Command=\"PC_ConvHilight | Shared_ConvIntParagon\")",
+        "( Name=\"SpaceBar\",Command=\"Shared_ConvSkip\")"
+      ]
+    },
+    "sfxgame.sfxgamemodedefault": {
+      "bindings": [
+        "( Name=\"LeftControl\", Command=\"Walking\" )",
+        "( Name=\"LeftMouseButton\", Command=\"Shared_Shoot\" )",
+        "( Name=\"RightMouseButton\", Command=\"Shared_Aim\" )",
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"SpaceBar\", Command=\"Shared_Action\" )",
+        "( Name=\"MouseScrollUp\", Command=\"PC_PrevWeapon\" )",
+        "( Name=\"MouseScrollDown\",\tCommand=\"PC_NextWeapon\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"One\", Command=\"PC_HotKey1\" )",
+        "( Name=\"Two\", Command=\"PC_HotKey2\" )",
+        "( Name=\"Three\", Command=\"PC_HotKey3\" )",
+        "( Name=\"Four\", Command=\"PC_HotKey4\" )",
+        "( Name=\"Five\", Command=\"PC_HotKey5\" )",
+        "( Name=\"Six\", Command=\"PC_HotKey6\" )",
+        "( Name=\"Seven\", Command=\"PC_HotKey7\" )",
+        "( Name=\"Eight\", Command=\"PC_HotKey8\" )",
+        "( Name=\"F5\", Command=\"Shared_QuickSave\" )",
+        "( Name=\"F9\", Command=\"PC_QuickLoad\" )",
+        "( Name=\"LeftShift\", Command=\"PC_EnterCommandMenu\" )",
+        "( Name=\"MiddleMouseButton\", Command=\"Shared_CoverTurn\" )",
+        "( Name=\"Tab\", Command=\"PC_PushToTalk\" )"
+      ],
+      "inputdelaystormexit": [
+        "0.25"
+      ],
+      "inputdelaytightaimexit": [
+        "0.1"
+      ]
+    },
+    "sfxgame.sfxgamemodedefault_00000409": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"F\", Command=\"Shared_Melee\" )",
+        "( Name=\"X\", Command=\"PC_SwapWeapon\" )",
+        "( Name=\"Q\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"Z\", Command=\"Shared_SquadAttack\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodedefault_0000040c": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"Z\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"F\", Command=\"Shared_Melee\" )",
+        "( Name=\"X\", Command=\"PC_SwapWeapon\" )",
+        "( Name=\"A\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"W\", Command=\"Shared_SquadAttack\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodedreamsequence": {
+      "bindings": [
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodedreamsequence_00000409": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodedreamsequence_0000040c": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"Z\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodedying": {
+      "bindings": [
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"SpaceBar\", Command=\"ProlongLife\" )",
+        "( Name=\"Seven\", Command=\"UseRevivePower\" )",
+        "( Name=\"Tab\", Command=\"PC_PushToTalk\" )"
+      ],
+      "prolonglifeboost": [
+        "0.250"
+      ],
+      "prolonglifedecay": [
+        "0.003"
+      ],
+      "startboosttime": [
+        "12.f"
+      ]
+    },
+    "sfxgame.sfxgamemodedying_00000409": {
+      "localizedbindings": [
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodedying_0000040c": {
+      "localizedbindings": [
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeflycam": {
+      "bindings": [
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"SpaceBar\", Command=\"ViewNextPlayer true\" )",
+        "( Name=\"MouseScrollUp\", Command=\"ViewNextPlayer true\" )",
+        "( Name=\"MouseScrollDown\", Command=\"ViewPrevPlayer true\" )",
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"A\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodegalaxy": {
+      "bindings": [
+        "( Name=\"MouseX\", Command=\"PC_GalaxyMouseStrafe\" )",
+        "( Name=\"MouseY\", Command=\"PC_GalaxyMouseMovement\" )",
+        "( Name=\"RightMouseButton\", Command=\"Shared_GalaxySystemScan\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodegalaxy_00000409": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"PC_GalaxyKeyStrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_GalaxyKeyStrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_GalaxyKeyMoveForward\" )",
+        "( Name=\"S\", Command=\"PC_GalaxyKeyMoveBackward\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodegalaxy_0000040c": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"PC_GalaxyKeyStrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_GalaxyKeyStrafeRight\" )",
+        "( Name=\"Z\", Command=\"PC_GalaxyKeyMoveForward\" )",
+        "( Name=\"S\", Command=\"PC_GalaxyKeyMoveBackward\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodegui": {
+      "bindings": [
+        "( Name=\"Left\", Command=\"Shared_AdvanceSlideshowBackward\" )",
+        "( Name=\"Right\", Command=\"Shared_AdvanceSlideshowForward\" )",
+        "( Name=\"Escape\", Command=\"Shared_ExitSlideshow\" )",
+        "( Name=\"Tab\", Command=\"PC_PushToTalk\" )",
+        "( Name=\"Spacebar\", Command=\"Shared_MPToggleReady\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodegui_00000409": {
+      "localizedbindings": [
+        "( Name=\"V\", Command=\"Shared_HideMap\" )",
+        "( Name=\"M\", Command=\"Shared_HideMap\" )",
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodegui_0000040c": {
+      "localizedbindings": [
+        "( Name=\"V\", Command=\"Shared_HideMap\" )",
+        "( Name=\"M\", Command=\"Shared_HideMap\" )",
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeillusivemanconflict": {
+      "bindings": [
+        "( Name=\"MouseX\", Command=\"PC_LookX | Repeat UpdateInput\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"LeftMouseButton\", Command=\"Shared_Shoot\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeinjuredshepard": {
+      "bindings": [
+        "( Name=\"LeftMouseButton\", Command=\"Shared_Shoot\" )",
+        "( Name=\"RightMouseButton\", Command=\"Shared_Aim\" )",
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"SpaceBar\", Command=\"Shared_Action\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"F5\", Command=\"Shared_QuickSave\" )",
+        "( Name=\"F9\", Command=\"PC_QuickLoad\" )"
+      ],
+      "inputdelaytightaimexit": [
+        "0.1"
+      ]
+    },
+    "sfxgame.sfxgamemodeinjuredshepard_00000409": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeinjuredshepard_0000040c": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"Z\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodelobby": {
+      "bindings": [
+        "( Name=\"Tab\", Command=\"PC_PushToTalk\" )",
+        "( Name=\"Spacebar\", Command=\"Shared_MPToggleReady\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodelobby_00000409": {
+      "localizedbindings": [
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodelobby_0000040c": {
+      "localizedbindings": [
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodemovie": {
+      "bindings": [
+        "( Name=\"SpaceBar\", Command=\"Shared_MovieSkip\" )",
+        "( Name=\"Escape\", Command=\"Shared_MovieSkip\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodemultiland": {
+      "inputattenuation": [
+        "0.05"
+      ],
+      "reticledegreespersecond": [
+        "90.0"
+      ],
+      "reticlerotbottomrightclamp": [
+        "(Pitch=-9100, Yaw=50500)"
+      ],
+      "reticlerotstart": [
+        "(Pitch=639,Yaw=59569)"
+      ],
+      "reticlerottopleftclamp": [
+        "(Pitch=9100, Yaw=68000)"
+      ],
+      "selectdistance": [
+        "20.0"
+      ]
+    },
+    "sfxgame.sfxgamemodeorbital": {
+      "bindings": [
+        "( Name=\"MouseX\", Command=\"PC_GalaxyMouseStrafe\" )",
+        "( Name=\"MouseY\", Command=\"PC_GalaxyMouseMovement\" )",
+        "( Name=\"RightMouseButton\", Command=\"Shared_GalaxyScan\" )",
+        "( Name=\"LeftMouseButton\", Command=\"Shared_GalaxyProbe\" )"
+      ],
+      "inputattenuation": [
+        "0.05"
+      ],
+      "planetrotationdegreespersecond": [
+        "50.0"
+      ],
+      "reticledegreespersecond": [
+        "90.0"
+      ],
+      "reticlerotbottomrightclamp": [
+        "(Pitch=-9100, Yaw=53500)"
+      ],
+      "reticlerotstart": [
+        "(Pitch=639,Yaw=59569)"
+      ],
+      "reticlerottopleftclamp": [
+        "(Pitch=9100, Yaw=65000)"
+      ],
+      "rumblescale": [
+        "0.75"
+      ],
+      "scanningplanetrotationdegreespersecond": [
+        "25.0"
+      ],
+      "scanningreticledegreespersecond": [
+        "35.0"
+      ]
+    },
+    "sfxgame.sfxgamemodeorbital_00000409": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"PC_GalaxyKeyRotateLeft\" )",
+        "( Name=\"D\", Command=\"PC_GalaxyKeyRotateRight\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodeorbital_0000040c": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"PC_GalaxyKeyRotateLeft\" )",
+        "( Name=\"D\", Command=\"PC_GalaxyKeyRotateRight\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodereplicationdebug": {
+      "bindings": [
+        "( Name=\"Right\", Command=\"NextPawn\" )",
+        "( Name=\"Left\", Command=\"PrevPawn\" )",
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodespectator": {
+      "bindings": [
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"SpaceBar\", Command=\"ViewNextPlayer true\" )",
+        "( Name=\"MouseScrollUp\", Command=\"ViewNextPlayer true\" )",
+        "( Name=\"MouseScrollDown\", Command=\"ViewPrevPlayer true\" )",
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"Tab\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodespectator_00000409": {
+      "localizedbindings": [
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodespectator_0000040c": {
+      "localizedbindings": [
+        "( Name=\"T\", Command=\"PC_Talk\" )",
+        "( Name=\"B\", Command=\"PC_PushToTalk\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodevehicle": {
+      "bindings": [
+        "( Name=\"LeftMouseButton\", Command=\"Shared_Shoot\" )",
+        "( Name=\"RightMouseButton\", Command=\"Shared_Aim\" )",
+        "( Name=\"MouseX\", Command=\"PC_LookX\" )",
+        "( Name=\"MouseY\", Command=\"PC_LookY\" )",
+        "( Name=\"Escape\", Command=\"Shared_Menu\" )",
+        "( Name=\"SpaceBar\",Command=\"Shared_Action\")",
+        "( Name=\"LeftShift\", Command=\"PC_EnterCommandMenu\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodevehicle_00000409": {
+      "localizedbindings": [
+        "( Name=\"A\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"W\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"X\", Command=\"Shared_ExitMountedGun\" )",
+        "( Name=\"Q\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"Z\", Command=\"Shared_SquadAttack\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )"
+      ]
+    },
+    "sfxgame.sfxgamemodevehicle_0000040c": {
+      "localizedbindings": [
+        "( Name=\"Q\", Command=\"PC_StrafeLeft\" )",
+        "( Name=\"D\", Command=\"PC_StrafeRight\" )",
+        "( Name=\"Z\", Command=\"PC_MoveForward\" )",
+        "( Name=\"S\", Command=\"PC_MoveBackward\" )",
+        "( Name=\"R\", Command=\"PC_Reload\" )",
+        "( Name=\"X\", Command=\"Shared_ExitMountedGun\" )",
+        "( Name=\"A\", Command=\"Shared_SquadMove1\" )",
+        "( Name=\"E\", Command=\"Shared_SquadMove2\" )",
+        "( Name=\"C\", Command=\"Shared_SquadFollow\" )",
+        "( Name=\"W\", Command=\"Shared_SquadAttack\" )",
+        "( Name=\"V\", Command=\"Shared_ShowMap\" )",
+        "( Name=\"M\", Command=\"Shared_ShowMap\" )"
+      ]
+    },
+    "unrealed.editorviewportinput": {
+      "bindings": [
+        "(Command=\"MODE WIDGETMODECYCLE\",Name=SpaceBar)",
+        "(Command=\"MODE WIDGETCOORDSYSTEMCYCLE\",Name=Tilde)",
+        "(Command=\"DELETE\",Name=Delete)",
+        "(Command=\"SELECT BUILDERBRUSH\",Name=F2)",
+        "(Command=\"EDCALLBACK SELECTEDPROPS\",Name=F4)",
+        "(Command=\"QUIT_EDITOR\",Name=F4,Alt=True)",
+        "(Command=\"EDCALLBACK SURFPROPS\",Name=F5)",
+        "(Command=\"EDCALLBACK LEVELPROPS\",Name=F6)",
+        "(Command=\"ACTOR SELECT ALL\",Name=A,Shift=True)",
+        "(Command=\"POLY SELECT MATCHING BRUSH\",Name=B,Shift=True)",
+        "(Command=\"POLY SELECT ADJACENT COPLANARS\",Name=C,Shift=True)",
+        "(Command=\"DUPLICATE\",Name=D,Shift=True)",
+        "(Command=\"ACTOR SELECT MATCHINGSTATICMESH\",Name=E,Shift=True)",
+        "(Command=\"POLY SELECT ADJACENT FLOORS\",Name=F,Shift=True)",
+        "(Command=\"EDCALLBACK FITTEXTURETOSURFACE\",Name=F,Control=True,Shift=True)",
+        "(Command=\"POLY SELECT MATCHING GROUPS\",Name=G,Shift=True)",
+        "(Command=\"POLY SELECT MATCHING ITEMS\",Name=I,Shift=True)",
+        "(Command=\"POLY SELECT ADJACENT ALL\",Name=J,Shift=True)",
+        "(Command=\"POLY SELECT MEMORY SET\",Name=M,Shift=True)",
+        "(Command=\"ACTOR LEVELCURRENT\",Name=M)",
+        "(Command=\"ACTOR MOVETOCURRENT\",Name=M,Control=True)",
+        "(Command=\"SELECT NONE\",Name=N,Shift=True)",
+        "(Command=\"POLY SELECT MEMORY INTERSECT\",Name=O,Shift=True)",
+        "(Command=\"POLY SELECT REVERSE\",Name=Q,Shift=True)",
+        "(Command=\"POLY SELECT MEMORY RECALL\",Name=R,Shift=True)",
+        "(Command=\"POLY SELECT ALL\",Name=S,Shift=True)",
+        "(Command=\"POLY SELECT MATCHING TEXTURE\",Name=T,Shift=True)",
+        "(Command=\"POLY SELECT MEMORY UNION\",Name=U,Shift=True)",
+        "(Command=\"POLY SELECT ADJACENT WALLS\",Name=W,Shift=True)",
+        "(Command=\"POLY SELECT MEMORY XOR\",Name=X,Shift=True)",
+        "(Command=\"POLY SELECT ADJACENT SLANTS\",Name=Y,Shift=True)",
+        "(Command=\"ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES\",Name=Z,Shift=True)",
+        "(Command=\"EDIT COPY\",Name=C,Control=True)",
+        "(Command=\"EDIT PASTE\",Name=V,Control=True)",
+        "(Command=\"DUPLICATE\",Name=W,Control=True)",
+        "(Command=\"EDIT CUT\",Name=X,Control=True)",
+        "(Command=\"TRANSACTION REDO\",Name=Y,Control=True)",
+        "(Command=\"TRANSACTION UNDO\",Name=Z,Control=True)",
+        "(Command=\"BRUSH ADD\",Name=A,Control=True)",
+        "(Command=\"BRUSH SUBTRACT\",Name=S,Control=True)",
+        "(Command=\"BRUSH FROM INTERSECTION\",Name=I,Control=True)",
+        "(Command=\"BRUSH FROM DEINTERSECTION\",Name=D,Control=True)",
+        "(Command=\"PREFAB SELECTACTORSINPREFABS\",Name=P,Shift=True)",
+        "(Command=\"ACTOR ALIGN SNAPTOFLOOR ALIGN=0\",Name=End)",
+        "(Command=\"ACTOR ALIGN MOVETOGRID\",Name=End,Control=True)",
+        "(Command=\"CAMERA ALIGN\",Name=Home)",
+        "(Command=\"CAMERA ALIGN ACTIVEVIEWPORTONLY\",Name=Home,Shift=True)",
+        "(Command=\"MAP BRUSH GET\",Name=P,Control=True)",
+        "(Command=\"ACTOR FIND KISMET\",Name=K,Control=True)",
+        "(Command=\"ACTOR SELECT ALL FROMOBJ\",Name=A,Control=True,Shift=True)",
+        "(Command=\"ACTOR SYNCBROWSER\",Name=B,Control=True)",
+        "(Command=\"ACTOR DESELECT\",Name=Escape)",
+        "(Command=\"CTRLTAB SHIFTDOWN=FALSE\",Name=Tab,Control=True)",
+        "(Command=\"CTRLTAB SHIFTDOWN=TRUE\",Name=Tab,Control=True,Shift=True)",
+        "(Command=\"ACTOR LINKSELECTED\",Name=L,Control=True,Shift=True)",
+        "(Command=\"ACTOR UNLINKSELECTED\",Name=U,Control=True,Shift=True)",
+        "(Command=\"BUILDLIGHTING\",Name=Semicolon,Control=True,Shift=True)",
+        "(Command=\"ACTOR ATTACH\",Name=B,Alt=True)"
+      ]
+    },
+    "unrealed.objecteditorviewportinput": {
+      "bindings": [
+        "(Command=\"TRANSACTION REDO\",Name=Y,Control=True)",
+        "(Command=\"TRANSACTION REDO\",Name=Z,Control=True,Shift=True)",
+        "(Command=\"TRANSACTION UNDO\",Name=Z,Control=True)"
+      ]
+    }
+  }
+}

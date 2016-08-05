@@ -1,0 +1,34 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\gfxui.int",
+  "sections": {
+    "fontlib": {
+      "fontlib": [
+        "GUI_SF_Fonts.AeroLightFont",
+        "GUI_SF_Fonts.BioMassFont"
+      ]
+    },
+    "fonts": {
+      "aerolight shared": [
+        "HelvLight"
+      ],
+      "biomass shared": [
+        "Biomass"
+      ]
+    },
+    "global": {
+      "no trigger": [
+        "No Trigger!"
+      ]
+    },
+    "ime": {
+      "moviepath": [
+        "GFxIME.IME"
+      ]
+    },
+    "translation": {
+      "enable": [
+        "1"
+      ]
+    }
+  }
+}

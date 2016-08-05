@@ -1,0 +1,852 @@
+{
+  "name": "..\\..\\biogame\\config\\bioai.ini",
+  "sections": {
+    "iniversion": {
+      "0": [
+        "3318390393.000000"
+      ]
+    },
+    "sfxgame.bioaicontroller": {
+      "bailogging": [
+        "false"
+      ],
+      "bailogtowindow": [
+        "true"
+      ],
+      "bdebug_ai": [
+        "true"
+      ],
+      "bdebug_aienemylist": [
+        "false"
+      ],
+      "bdebug_airange": [
+        "false"
+      ],
+      "buseiterativepathfinding": [
+        "true"
+      ],
+      "interpenemylocspeed": [
+        "20.0f"
+      ],
+      "response_minenemyheartime": [
+        "0.25f"
+      ],
+      "response_minenemyseentime": [
+        "1.0f"
+      ]
+    },
+    "sfxgame.sfxai_core": {
+      "ai_acc_base": [
+        "0.01"
+      ],
+      "ai_acc_instabilitydecayrate": [
+        "0.5"
+      ],
+      "ai_acc_target": [
+        "0.01"
+      ],
+      "ai_accmod_briefacquire": [
+        "0.25"
+      ],
+      "ai_accmod_briefvisibility": [
+        "0.15"
+      ],
+      "ai_accmod_longrange": [
+        "0.0"
+      ],
+      "ai_accmod_mediumrange": [
+        "-0.05"
+      ],
+      "ai_accmod_move": [
+        "0.1"
+      ],
+      "ai_accmod_shortrange": [
+        "-0.15"
+      ],
+      "ai_accmod_targmove": [
+        "0.15"
+      ],
+      "buseticketing": [
+        "true"
+      ],
+      "maxnumaggressive": [
+        "2"
+      ]
+    },
+    "sfxgame.sfxai_henchman": {
+      "henchmanattackbonus": [
+        "2.0"
+      ],
+      "henchmanattackduration": [
+        "10.0"
+      ],
+      "henchmandefensebonus": [
+        "-0.4"
+      ],
+      "henchmandefenseduration": [
+        "10.0"
+      ],
+      "m_ballowinstantpowerwhilevisible": [
+        "false"
+      ]
+    },
+    "sfxgamecontent.sfxai_atlas": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ]
+    },
+    "sfxgamecontent.sfxai_cannibal": {
+      "ai_burststofire": [
+        "(X=1,Y=3)"
+      ]
+    },
+    "sfxgamecontent.sfxai_centurion": {
+      "ai_burststofire": [
+        "(X=1,Y=3)"
+      ]
+    },
+    "sfxgamecontent.sfxai_gethhunter": {
+      "ai_burststofire": [
+        "(X=1,Y=2)"
+      ]
+    },
+    "sfxgamecontent.sfxai_gethpyro": {
+      "ai_burststofire": [
+        "(X=3,Y=3)"
+      ]
+    },
+    "sfxgamecontent.sfxai_gethrockettrooper": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ]
+    },
+    "sfxgamecontent.sfxai_gethtrooper": {
+      "ai_burststofire": [
+        "(X=1,Y=3)"
+      ]
+    },
+    "sfxgamecontent.sfxai_guardian": {
+      "ai_burststofire": [
+        "(X=1,Y=2)"
+      ]
+    },
+    "sfxgamecontent.sfxai_gunner": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ]
+    },
+    "sfxgamecontent.sfxai_gunnerturret": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ]
+    },
+    "sfxgamecontent.sfxai_harvester": {
+      "ai_burststofire": [
+        "(X=3,Y=5)"
+      ]
+    },
+    "sfxgamecontent.sfxai_kaileng": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ]
+    },
+    "sfxgamecontent.sfxai_marauder": {
+      "ai_burststofire": [
+        "(X=1,Y=3)"
+      ]
+    },
+    "sfxgamecontent.sfxai_nemesis": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ]
+    },
+    "sfxgamecontent.sfxai_phantom": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ]
+    },
+    "sfxgamecontent.sfxai_ravager": {
+      "ai_burststofire": [
+        "(X=1,Y=1)"
+      ],
+      "interpenemylocspeed": [
+        "8.0f"
+      ]
+    },
+    "sfxgamecontent.sfxai_trooper": {
+      "ai_burststofire": [
+        "(X=1,Y=3)"
+      ]
+    },
+    "sfxgamecontent.sfxdamagetype_ai_shotgun": {
+      "hitreactions": [
+        "(BodyPart=\"\",Reaction=Reaction_Light,ReactionChance=0.8,MaxRange=HitReactRange_Short,bIgnoreShields=true)",
+        "(BodyPart=\"\",Reaction=Reaction_Light,ReactionChance=0.45,MaxRange=HitReactRange_Medium,bIgnoreShields=true)"
+      ]
+    },
+    "sfxgamecontent.sfxdamagetype_ai_sniperrifle": {
+      "hitreactions": [
+        "(BodyPart=\"\",Reaction=Reaction_Medium,ReactionChance=0.5,bIgnoreShields=true)",
+        "(BodyPart=\"\",Reaction=Reaction_Light,ReactionChance=1.0,bIgnoreShields=true)"
+      ]
+    },
+    "sfxgamecontent.sfxdamagetype_atlasweapon": {
+      "hitreactions": [
+        "(BodyPart=\"\",Reaction=Reaction_Medium,ReactionChance=0.65,bIgnoreShields=true)",
+        "(BodyPart=\"\",Reaction=Reaction_Light,ReactionChance=1.0,bIgnoreShields=true)"
+      ]
+    },
+    "sfxgamecontent.sfxdamagetype_flamethrower": {
+      "hitreactions": [
+        "(BodyPart=\"\",Reaction=Reaction_Fire,ReactionChance=0.85,MaxRange=HitReactRange_Medium,bIgnoreShields=true)",
+        "(BodyPart=\"\",Reaction=Reaction_Fire,ReactionChance=0.75,MaxRange=HitReactRange_Medium,bIgnoreShields=true)"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_cannibalrifle": {
+      "ai_acccone_max": [
+        "(X=2.5f,Y=2.5f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.5f,Y=1.5f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=6,Y=9)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.65f,Y=1.1f)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "damage": [
+        "(X=35.0,Y=35.0)"
+      ],
+      "magsize": [
+        "(X=16,Y=16)"
+      ],
+      "maxspareammo": [
+        "(X=64,Y=64)"
+      ],
+      "rateoffire": [
+        "(X=450,Y=450)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ],
+      "tracerspawnoffset": [
+        "2.0"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_cobra": {
+      "ai_acccone_max": [
+        "(X=2.2f,Y=2.2f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.5f,Y=1.5f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=8,Y=12)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.65f,Y=1.1f)"
+      ],
+      "damage": [
+        "(X=26.8,Y=26.8)"
+      ],
+      "magsize": [
+        "(X=50,Y=50)"
+      ],
+      "rateoffire": [
+        "(X=600,Y=600)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_gethassaultrifle": {
+      "ai_acccone_max": [
+        "(X=2.2f,Y=2.2f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.5f,Y=1.5f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=5,Y=7)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.7f,Y=1.1)"
+      ],
+      "damage": [
+        "(X=30.0,Y=30.0)"
+      ],
+      "magsize": [
+        "(X=24,Y=24)"
+      ],
+      "rateoffire": [
+        "(X=800,Y=800)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_gethflamethrower": {
+      "ai_acccone_max": [
+        "(X=0.0,Y=0.0)"
+      ],
+      "ai_acccone_min": [
+        "(X=0.0,Y=0.0)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=4,Y=7)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.1f,Y=0.2f)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "beaminterpspeed": [
+        "(X=65536.0,Y=65536.0)"
+      ],
+      "beaminterptime": [
+        "0.f"
+      ],
+      "damage": [
+        "(X=25.0,Y=25.0)"
+      ],
+      "idealmaxrange": [
+        "1200.f"
+      ],
+      "idealminrange": [
+        "250.f"
+      ],
+      "idealtargetdistance": [
+        "750.f"
+      ],
+      "magsize": [
+        "(X=1350,Y=1350)"
+      ],
+      "rateoffire": [
+        "(X=240,Y=240)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ],
+      "tracerange": [
+        "1200"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_gethprimerifle": {
+      "ai_acccone_max": [
+        "(X=0.0,Y=0.0)"
+      ],
+      "ai_acccone_min": [
+        "(X=0.0,Y=0.0)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=3,Y=3)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=2.f,Y=3.25f)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "damage": [
+        "(X=230,Y=230)"
+      ],
+      "idealmaxrange": [
+        "4000.f"
+      ],
+      "idealminrange": [
+        "500.f"
+      ],
+      "idealtargetdistance": [
+        "3000.f"
+      ],
+      "magsize": [
+        "(X=10,Y=10)"
+      ],
+      "rateoffire": [
+        "(X=70,Y=70)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_gethrocketlauncher": {
+      "ai_acccone_max": [
+        "(X=0.0,Y=0.0)"
+      ],
+      "ai_acccone_min": [
+        "(X=0.0,Y=0.0)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.2f,Y=0.6f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=1,Y=1)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=2.0f,Y=3.25f)"
+      ],
+      "damage": [
+        "(X=425,Y=425)"
+      ],
+      "idealmaxrange": [
+        "4000.f"
+      ],
+      "idealminrange": [
+        "500.f"
+      ],
+      "idealtargetdistance": [
+        "2000.f"
+      ],
+      "magsize": [
+        "(X=10,Y=10)"
+      ],
+      "rateoffire": [
+        "(X=140,Y=140)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_gethshotgun": {
+      "ai_acccone_max": [
+        "(X=2.5f,Y=2.5f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.5f,Y=1.5f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=2,Y=2)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.9f,Y=1.5f)"
+      ],
+      "damage": [
+        "(X=200,Y=200)"
+      ],
+      "firsthitdamage": [
+        "1.0"
+      ],
+      "idealmaxrange": [
+        "3000.f"
+      ],
+      "idealminrange": [
+        "300.f"
+      ],
+      "idealtargetdistance": [
+        "1200.f"
+      ],
+      "instantfiredamage": [
+        "1.0f"
+      ],
+      "magsize": [
+        "(X=5,Y=5)"
+      ],
+      "rateoffire": [
+        "(X=60,Y=60)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ],
+      "secondhitdamage": [
+        "0.3"
+      ],
+      "thirdhitdamage": [
+        "0.3"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_gunshipminigun": {
+      "damage": [
+        "(X=75.0,Y=75.0)"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_harvester": {
+      "ai_acccone_max": [
+        "(X=5,Y=5)"
+      ],
+      "ai_acccone_min": [
+        "(X=2,Y=2)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=5,Y=5)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=1.25f,Y=1.35f)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "damage": [
+        "(X=400.0,Y=400.0)"
+      ],
+      "idealmaxrange": [
+        "70000.f"
+      ],
+      "idealminrange": [
+        "300.f"
+      ],
+      "idealtargetdistance": [
+        "4000.f"
+      ],
+      "magsize": [
+        "(X=1000,Y=1000)"
+      ],
+      "rateoffire": [
+        "(X=200,Y=200)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_hornet": {
+      "ai_acccone_max": [
+        "(X=2.5f,Y=2.5f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.5f,Y=1.5f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=3,Y=5)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.2f,Y=0.5f)"
+      ],
+      "damage": [
+        "(X=40.0,Y=40.0)"
+      ],
+      "magsize": [
+        "(X=24,Y=24)"
+      ],
+      "rateoffire": [
+        "(X=500,Y=500)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_kaileng": {
+      "ai_acccone_max": [
+        "(X=1.85f,Y=1.85f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.0f,Y=1.0f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=2,Y=5)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=1.1f,Y=1.8f)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "damage": [
+        "(X=75,Y=75)"
+      ],
+      "idealmaxrange": [
+        "4000.f"
+      ],
+      "idealminrange": [
+        "300.f"
+      ],
+      "idealtargetdistance": [
+        "800.f"
+      ],
+      "magsize": [
+        "(X=12,Y=12)"
+      ],
+      "meleerange": [
+        "200.0f"
+      ],
+      "rateoffire": [
+        "(X=120,Y=120)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_mattock": {
+      "ai_acccone_max": [
+        "(X=1.8f,Y=1.8f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.2f,Y=1.2f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=3,Y=5)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.5f,Y=0.8f)"
+      ],
+      "damage": [
+        "(X=70.0,Y=70.0)"
+      ],
+      "rateoffire": [
+        "(X=350,Y=350)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_phalanx": {
+      "ai_acccone_max": [
+        "(X=2.0f,Y=2.0f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.2f,Y=1.2f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=2,Y=3)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.65f,Y=2.3f)"
+      ],
+      "damage": [
+        "(X=150.0,Y=150.0)"
+      ],
+      "magsize": [
+        "(X=6,Y=6)"
+      ],
+      "rateoffire": [
+        "(X=50,Y=50)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_phantom": {
+      "ai_acccone_max": [
+        "(X=1.85f,Y=1.85f)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.0f,Y=1.0f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=2,Y=5)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=1.1f,Y=1.8f)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "damage": [
+        "(X=250,Y=250)"
+      ],
+      "magsize": [
+        "(X=12,Y=12)"
+      ],
+      "rateoffire": [
+        "(X=90,Y=90)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_promarturretminigun": {
+      "damage": [
+        "(X=25.0,Y=25.0)"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_raptor": {
+      "ai_acccone_max": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_acccone_min": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=1,Y=1)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.8f,Y=0.8f)"
+      ],
+      "damage": [
+        "(X=700.0,Y=700.0)"
+      ],
+      "rateoffire": [
+        "(X=550,Y=550)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_ravager": {
+      "ai_acccone_max": [
+        "(X=2.05,Y=2.05)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.05,Y=1.05)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=3,Y=3)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.8f,Y=1.35f)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "damage": [
+        "(X=400,Y=400)"
+      ],
+      "idealmaxrange": [
+        "4000.f"
+      ],
+      "idealminrange": [
+        "600.f"
+      ],
+      "idealtargetdistance": [
+        "2500.f"
+      ],
+      "magsize": [
+        "(X=3,Y=3)"
+      ],
+      "rateoffire": [
+        "(X=75,Y=75)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_talon": {
+      "ai_acccone_max": [
+        "(X=3.3f,Y=3.3f)"
+      ],
+      "ai_acccone_min": [
+        "(X=2.3f,Y=2.3f)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.3,Y=0.3)"
+      ],
+      "ai_burstfirecount": [
+        "(X=1,Y=3)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.9f,Y=1.5f)"
+      ],
+      "damage": [
+        "(X=32.5,Y=32.5)"
+      ],
+      "idealmaxrange": [
+        "1600.f"
+      ],
+      "idealminrange": [
+        "300.f"
+      ],
+      "idealtargetdistance": [
+        "800.f"
+      ],
+      "rateoffire": [
+        "(X=75,Y=75)"
+      ],
+      "rateoffireai": [
+        "0.75f"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_ai_turretminigun": {
+      "ai_acccone_max": [
+        "(X=2.1,Y=2.1)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.8,Y=1.8)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=30,Y=50)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0,Y=0)"
+      ],
+      "ammopershot": [
+        "0"
+      ],
+      "damage": [
+        "(X=50.0,Y=50.0)"
+      ],
+      "impactrelevancedistance": [
+        "8000"
+      ],
+      "magsize": [
+        "(X=200,Y=200)"
+      ],
+      "rateoffire": [
+        "(X=900,Y=900)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ],
+      "tracerange": [
+        "8000"
+      ]
+    },
+    "sfxgamecontent.sfxweapon_smg_shuriken": {
+      "ai_acccone_max": [
+        "(X=1.2,Y=1.2)"
+      ],
+      "ai_acccone_min": [
+        "(X=1.2,Y=1.2)"
+      ],
+      "ai_aimdelay": [
+        "(X=0.0f,Y=0.0f)"
+      ],
+      "ai_burstfirecount": [
+        "(X=1,Y=4)"
+      ],
+      "ai_burstfiredelay": [
+        "(X=0.65f,Y=2.3f)"
+      ],
+      "rateoffireai": [
+        "1.0f"
+      ]
+    }
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "name": "..\\..\\biogame\\config\\biolightmass.ini",
+  "sections": {
+    "devoptions.debugoptions": {
+      "ballowadvancedoptions": [
+        "False"
+      ],
+      "lightmapresolutionfactorscale": [
+        "32.0"
+      ]
+    },
+    "devoptions.importancetracing": {
+      "busecosinepdf": [
+        "False"
+      ],
+      "busepathtracer": [
+        "False"
+      ],
+      "busestratifiedsampling": [
+        "True"
+      ],
+      "maxhemisphererayangle": [
+        "89"
+      ],
+      "numbouncehemispheresamples": [
+        "64"
+      ],
+      "numhemispheresamples": [
+        "64"
+      ],
+      "numpaths": [
+        "128"
+      ]
+    },
+    "devoptions.irradiancecache": {
+      "anglesmoothfactor": [
+        "2"
+      ],
+      "ballowirradiancecaching": [
+        "True"
+      ],
+      "bshowgradientsonly": [
+        "False"
+      ],
+      "buseirradiancegradients": [
+        "False"
+      ],
+      "bvisualizeirradiancesamples": [
+        "True"
+      ],
+      "distancesmoothfactor": [
+        "2"
+      ],
+      "interpolationmaxangle": [
+        "20"
+      ],
+      "maxrecordradius": [
+        "1024"
+      ],
+      "minrecordradius": [
+        "16"
+      ],
+      "pointbehindrecordmaxangle": [
+        "10"
+      ],
+      "recordbounceradiusscale": [
+        ".3"
+      ],
+      "recordradiusscale": [
+        ".4"
+      ]
+    },
+    "devoptions.mesharealights": {
+      "bvisualizemesharealightprimitives": [
+        "False"
+      ],
+      "emissiveintensitythreshold": [
+        ".01"
+      ],
+      "mesharealightgridsize": [
+        "100"
+      ],
+      "mesharealightsimplifycornerdistancethreshold": [
+        ".5"
+      ],
+      "mesharealightsimplifymeshboundingradiusfractionthreshold": [
+        ".1"
+      ],
+      "mesharealightsimplifynormalanglethreshold": [
+        "25"
+      ]
+    },
+    "devoptions.photonmapping": {
+      "bcacheirradiancephotonsonsurfaces": [
+        "True"
+      ],
+      "bemitphotonsoutsideimportancevolume": [
+        "False"
+      ],
+      "boptimizedirectlightingwithphotons": [
+        "False"
+      ],
+      "busefinalgathering": [
+        "True"
+      ],
+      "buseirradiancephotons": [
+        "True"
+      ],
+      "busephotonmapping": [
+        "True"
+      ],
+      "busephotonsfordirectlighting": [
+        "False"
+      ],
+      "bvisualizeirradiancephotoncalculation": [
+        "False"
+      ],
+      "bvisualizephotongathers": [
+        "True"
+      ],
+      "bvisualizephotonimportancesamples": [
+        "True"
+      ],
+      "bvisualizephotonpaths": [
+        "False"
+      ],
+      "cachedirradiancephotondownsamplefactor": [
+        "2"
+      ],
+      "causticphotondensity": [
+        "0"
+      ],
+      "causticphotonsearchdistance": [
+        "100"
+      ],
+      "conefilterconstant": [
+        "1"
+      ],
+      "directirradiancephotondensity": [
+        "350"
+      ],
+      "directphotondensity": [
+        "350"
+      ],
+      "directphotonsearchdistance": [
+        "200"
+      ],
+      "finalgatherimportancesampleconeangle": [
+        "10"
+      ],
+      "finalgatherimportancesamplefraction": [
+        ".6"
+      ],
+      "indirectirradiancephotondensity": [
+        "300"
+      ],
+      "indirectphotondensity": [
+        "600"
+      ],
+      "indirectphotonemitconeangle": [
+        "30"
+      ],
+      "indirectphotonemitdiskradius": [
+        "200"
+      ],
+      "indirectphotonpathdensity": [
+        "5"
+      ],
+      "indirectphotonsearchdistance": [
+        "200"
+      ],
+      "irradiancephotonsearchconeangle": [
+        "10"
+      ],
+      "maxdirectlightingphotonoptimizationangle": [
+        "80"
+      ],
+      "maximportancephotonsearchdistance": [
+        "2000"
+      ],
+      "minimportancephotonsearchdistance": [
+        "20"
+      ],
+      "numimportancesearchphotons": [
+        "10"
+      ],
+      "numirradiancecalculationphotons": [
+        "400"
+      ],
+      "outsideimportancevolumedensityscale": [
+        ".0005"
+      ],
+      "photonsearchanglethreshold": [
+        ".5"
+      ]
+    },
+    "devoptions.precomputeddynamicobjectlighting": {
+      "bvisualizevolumelightinterpolation": [
+        "False"
+      ],
+      "bvisualizevolumelightsamples": [
+        "True"
+      ],
+      "firstsurfacesamplelayerheight": [
+        "50"
+      ],
+      "maxvolumesamples": [
+        "50000"
+      ],
+      "numsurfacesamplelayers": [
+        "2"
+      ],
+      "surfacelightsamplespacing": [
+        "750"
+      ],
+      "surfacesamplelayerheightspacing": [
+        "210"
+      ],
+      "volumelightsamplespacing": [
+        "2000"
+      ]
+    },
+    "devoptions.staticlighting": {
+      "baccountfortexelsize": [
+        "True"
+      ],
+      "ballow64bitprocess": [
+        "True"
+      ],
+      "ballowcropping": [
+        "False"
+      ],
+      "balloweagerlightmapencode": [
+        "False"
+      ],
+      "ballowlightmapcompression": [
+        "True"
+      ],
+      "ballowmultithreadedstaticlighting": [
+        "True"
+      ],
+      "bgarbagecollectafterexport": [
+        "True"
+      ],
+      "brebuilddirtygeometryforlighting": [
+        "True"
+      ],
+      "busebilinearfilterlightmaps": [
+        "True"
+      ],
+      "buseconservativetexelrasterization": [
+        "True"
+      ],
+      "busemaxweight": [
+        "True"
+      ],
+      "defaultstaticmeshlightingres": [
+        "32"
+      ],
+      "maxtriangleirradiancephotoncachesamples": [
+        "4"
+      ],
+      "maxtrianglelightingsamples": [
+        "8"
+      ],
+      "viewsinglebouncenumber": [
+        "-1"
+      ]
+    },
+    "devoptions.staticlightinghighquality": {
+      "approximatehighrestexelspermaxtransitiondistancescale": [
+        "6"
+      ],
+      "directphotonsearchdistancescale": [
+        ".5"
+      ],
+      "interpolationmaxanglescale": [
+        ".5"
+      ],
+      "mindistancefieldupsamplefactor": [
+        "5"
+      ],
+      "minrecordradiusscale": [
+        ".5"
+      ],
+      "numcausticphotonsscale": [
+        "1"
+      ],
+      "numdirectphotonsscale": [
+        "2"
+      ],
+      "numhemispheresamplesscale": [
+        "4"
+      ],
+      "numimportancesearchphotonsscale": [
+        "2"
+      ],
+      "numindirectirradiancephotonsscale": [
+        "2"
+      ],
+      "numindirectphotonpathsscale": [
+        "2"
+      ],
+      "numindirectphotonsscale": [
+        "4"
+      ],
+      "numpenumbrashadowraysscale": [
+        "8"
+      ],
+      "numshadowraysscale": [
+        "4"
+      ],
+      "recordradiusscalescale": [
+        ".5"
+      ]
+    },
+    "devoptions.staticlightingmaterial": {
+      "busedebugmaterial": [
+        "False"
+      ],
+      "debugdiffuse": [
+        "(R=0.500000,G=0.500000,B=0.500000)"
+      ],
+      "debugspecular": [
+        "(R=0.000000,G=0.000000,B=0.000000)"
+      ],
+      "debugspecularpower": [
+        "64"
+      ],
+      "diffusesamplesize": [
+        "128"
+      ],
+      "emissivesamplesize": [
+        "128"
+      ],
+      "environmentcolor": [
+        "(R=0.00000,G=0.00000,B=0.00000)"
+      ],
+      "showmaterialattribute": [
+        "None"
+      ],
+      "specularsamplesize": [
+        "128"
+      ],
+      "terrainsamplescalar": [
+        "4"
+      ],
+      "transmissionsamplesize": [
+        "256"
+      ]
+    },
+    "devoptions.staticlightingmediumquality": {
+      "approximatehighrestexelspermaxtransitiondistancescale": [
+        "3"
+      ],
+      "directphotonsearchdistancescale": [
+        ".5"
+      ],
+      "interpolationmaxanglescale": [
+        ".75"
+      ],
+      "mindistancefieldupsamplefactor": [
+        "3"
+      ],
+      "minrecordradiusscale": [
+        ".5"
+      ],
+      "numcausticphotonsscale": [
+        "1"
+      ],
+      "numdirectphotonsscale": [
+        "2"
+      ],
+      "numhemispheresamplesscale": [
+        "2"
+      ],
+      "numimportancesearchphotonsscale": [
+        "1"
+      ],
+      "numindirectirradiancephotonsscale": [
+        "2"
+      ],
+      "numindirectphotonpathsscale": [
+        "1"
+      ],
+      "numindirectphotonsscale": [
+        "2"
+      ],
+      "numpenumbrashadowraysscale": [
+        "4"
+      ],
+      "numshadowraysscale": [
+        "2"
+      ],
+      "recordradiusscalescale": [
+        ".75"
+      ]
+    },
+    "devoptions.staticlightingproductionquality": {
+      "approximatehighrestexelspermaxtransitiondistancescale": [
+        "6"
+      ],
+      "directphotonsearchdistancescale": [
+        ".5"
+      ],
+      "interpolationmaxanglescale": [
+        ".5"
+      ],
+      "mindistancefieldupsamplefactor": [
+        "5"
+      ],
+      "minrecordradiusscale": [
+        ".5"
+      ],
+      "numcausticphotonsscale": [
+        "1"
+      ],
+      "numdirectphotonsscale": [
+        "4"
+      ],
+      "numhemispheresamplesscale": [
+        "8"
+      ],
+      "numimportancesearchphotonsscale": [
+        "3"
+      ],
+      "numindirectirradiancephotonsscale": [
+        "2"
+      ],
+      "numindirectphotonpathsscale": [
+        "2"
+      ],
+      "numindirectphotonsscale": [
+        "8"
+      ],
+      "numpenumbrashadowraysscale": [
+        "32"
+      ],
+      "numshadowraysscale": [
+        "8"
+      ],
+      "recordradiusscalescale": [
+        ".25"
+      ]
+    },
+    "devoptions.staticlightingsceneconstants": {
+      "customimportancevolumeexpandby": [
+        "4000"
+      ],
+      "directionalcoefficientfalloffpower": [
+        ".85"
+      ],
+      "directionalcoefficientscale": [
+        "2"
+      ],
+      "lightgridsize": [
+        "100"
+      ],
+      "minimumimportancevolumeextentwithoutwarning": [
+        "5000.0"
+      ],
+      "smallesttexelradius": [
+        ".1"
+      ],
+      "staticlightinglevelscale": [
+        "1"
+      ],
+      "visibilitynormaloffsetdistance": [
+        "3"
+      ],
+      "visibilitynormaloffsetsampleradiusscale": [
+        ".5"
+      ],
+      "visibilityrayoffsetdistance": [
+        ".1"
+      ],
+      "visibilitytangentoffsetsampleradiusscale": [
+        ".8"
+      ]
+    },
+    "devoptions.staticshadows": {
+      "approximatehighrestexelspermaxtransitiondistance": [
+        "50"
+      ],
+      "ballowsigneddistancefieldshadows": [
+        "True"
+      ],
+      "bfiltershadowfactor": [
+        "False"
+      ],
+      "busezeroarealightmapspacefilteredlights": [
+        "False"
+      ],
+      "dominantshadowmaxsamples": [
+        "1536000"
+      ],
+      "dominantshadowsupersamplefactor": [
+        "10"
+      ],
+      "dominantshadowtransitionsampledistancex": [
+        "100"
+      ],
+      "dominantshadowtransitionsampledistancey": [
+        "100"
+      ],
+      "maxtransitiondistanceworldspace": [
+        "50"
+      ],
+      "mindistancefieldupsamplefactor": [
+        "3"
+      ],
+      "minunoccludedfraction": [
+        ".01"
+      ],
+      "numbounceshadowrays": [
+        "4"
+      ],
+      "numpenumbrashadowrays": [
+        "8"
+      ],
+      "numshadowrays": [
+        "8"
+      ],
+      "shadowfactorgradienttolerance": [
+        "0.5"
+      ]
+    },
+    "iniversion": {
+      "0": [
+        "1549242006.000000"
+      ],
+      "1": [
+        "5491452638.000000"
+      ]
+    }
+  }
+}

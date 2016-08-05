@@ -1,0 +1,45 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\ipdrv.int",
+  "sections": {
+    "compresscommandlet": {
+      "helpcmd": [
+        "compress"
+      ],
+      "helpdesc[0]": [
+        "The wildcard or file names to compress."
+      ],
+      "helponeliner": [
+        "Compress an Unreal package for auto-downloading.  A file with extension .uz will be created."
+      ],
+      "helpparm[0]": [
+        "Files"
+      ],
+      "helpusage": [
+        "compress File1 [File2 [File3 ...]]"
+      ]
+    },
+    "decompresscommandlet": {
+      "helpcmd": [
+        "decompress"
+      ],
+      "helpdesc[0]": [
+        "The .uz file to decompress."
+      ],
+      "helponeliner": [
+        "Decompress a file compressed with ucc compress."
+      ],
+      "helpparm[0]": [
+        "CompressedFile"
+      ],
+      "helpusage": [
+        "decompress CompressedFile"
+      ]
+    },
+    "public": {
+      "object": [
+        "(Name=IpDrv.CompressCommandlet,Class=Class,MetaClass=Core.Commandlet)",
+        "(Name=IpDrv.DecompressCommandlet,Class=Class,MetaClass=Core.Commandlet)"
+      ]
+    }
+  }
+}

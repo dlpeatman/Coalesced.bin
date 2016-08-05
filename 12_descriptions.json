@@ -1,0 +1,790 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\descriptions.int",
+  "sections": {
+    "objects": {
+      "bioconvnodetrackdebug": [
+        "Bio Debug Track"
+      ],
+      "bioevtsystrackdof": [
+        "Bio Depth of Field Track"
+      ],
+      "bioevtsystrackgesture": [
+        "Bio Gesture Track"
+      ],
+      "bioevtsystrackinterrupt": [
+        "Bio Interrupt Track"
+      ],
+      "bioevtsystracklighting": [
+        "Conversation Lighting"
+      ],
+      "bioevtsystracklookat": [
+        "Bio Look At Track"
+      ],
+      "bioevtsystrackprop": [
+        "Bio Prop Track"
+      ],
+      "bioevtsystracksetfacing": [
+        "Bio Pawn Facing Track"
+      ],
+      "bioevtsystracksubtitles": [
+        "Bio Subtitles Track"
+      ],
+      "bioevtsystrackswitchcamera": [
+        "Bio Switch Camera Track"
+      ],
+      "bioevtsystrackvoelements": [
+        "Bio VO Elements Track"
+      ],
+      "biointerptrackmove": [
+        "Bio Movement Track"
+      ],
+      "biointerptrackrotationmode": [
+        "Bio Rotation Mode Track"
+      ],
+      "biointerptracktoggleconvinterrupt": [
+        "Bio Toggle Interrupt Track"
+      ],
+      "bioparticlemodulebase": [
+        "BioWare"
+      ],
+      "bioparticlemoduleemitterspeedbase": [
+        "Modify by Emitter Speed"
+      ],
+      "bioparticlemodulelocationattachedmesh": [
+        "Emit from Parent Mesh"
+      ],
+      "bioparticlemodulemultiplybyemitterspeed": [
+        "Multiply by Speed"
+      ],
+      "bioparticlemodulevelocityworldspace": [
+        "Initial Velocity in WorldSpace"
+      ],
+      "bioscalarparametertrack": [
+        "Scalar Parameter"
+      ],
+      "biosoundnodeapactivity": [
+        "AP Activity"
+      ],
+      "biosoundnodeapstate": [
+        "AP State"
+      ],
+      "biosoundnodeaptransition": [
+        "AP Transition"
+      ],
+      "biovectorparametertrack": [
+        "Bio Vector Param Track"
+      ],
+      "biovisualeffecttrack": [
+        "VFX Track"
+      ],
+      "interptrackanimcontrol": [
+        "Anim Control Track"
+      ],
+      "interptrackaudiomaster": [
+        "Audio Master Track"
+      ],
+      "interptrackbluralpha": [
+        "Bloom Alpha Track"
+      ],
+      "interptrackcolorprop": [
+        "Color Property Track"
+      ],
+      "interptrackcolorscale": [
+        "Color Scale Track"
+      ],
+      "interptrackdirector": [
+        "Director Track"
+      ],
+      "interptrackevent": [
+        "Event Track"
+      ],
+      "interptrackfacefx": [
+        "FaceFX Track"
+      ],
+      "interptrackfade": [
+        "Fade Track"
+      ],
+      "interptrackfloatmaterialparam": [
+        "Float Material Param Track"
+      ],
+      "interptrackfloatparticleparam": [
+        "Float Particle Param Track"
+      ],
+      "interptrackfloatprop": [
+        "Float Property Track"
+      ],
+      "interptracklinearcolorprop": [
+        "LinearColor Property Track"
+      ],
+      "interptrackmorphweight": [
+        "Morph Weight"
+      ],
+      "interptrackmove": [
+        "Movement Track"
+      ],
+      "interptrackparticlereplay": [
+        "Particle Replay Track"
+      ],
+      "interptrackskelcontrolscale": [
+        "SkelControl Scale Track"
+      ],
+      "interptrackslomo": [
+        "Slomo Track"
+      ],
+      "interptracksound": [
+        "Sound Track"
+      ],
+      "interptracktoggle": [
+        "Toggle Track"
+      ],
+      "interptrackvectormaterialparam": [
+        "Vector Material Param Track"
+      ],
+      "interptrackvectorprop": [
+        "Vector Property Track"
+      ],
+      "interptrackvisibility": [
+        "Visibility Track"
+      ],
+      "interptrackwwiseevent": [
+        "Wwise Event Track"
+      ],
+      "interptrackwwisertpc": [
+        "Wwise RTPC Track"
+      ],
+      "interptrackwwisesoundeffect": [
+        "Wwise Sound Effect Track"
+      ],
+      "particlemoduleacceleration": [
+        "Acceleration"
+      ],
+      "particlemoduleaccelerationbase": [
+        "Acceleration"
+      ],
+      "particlemoduleaccelerationoverlifetime": [
+        "Acceleration/Life"
+      ],
+      "particlemoduleattractorbase": [
+        "Attraction"
+      ],
+      "particlemoduleattractorline": [
+        "Line Attractor"
+      ],
+      "particlemoduleattractorparticle": [
+        "Particle Attractor"
+      ],
+      "particlemoduleattractorpoint": [
+        "Point Attractor"
+      ],
+      "particlemodulebeambase": [
+        "Beam"
+      ],
+      "particlemodulebeammodifier": [
+        "Beam Modifier"
+      ],
+      "particlemodulebeammultitarget": [
+        "MultiTarget"
+      ],
+      "particlemodulebeamnoise": [
+        "Noise"
+      ],
+      "particlemodulebeamsource": [
+        "Source"
+      ],
+      "particlemodulebeamtarget": [
+        "Target"
+      ],
+      "particlemodulecollision": [
+        "Collision"
+      ],
+      "particlemodulecollisionbase": [
+        "Collision"
+      ],
+      "particlemodulecolor": [
+        "Initial Color"
+      ],
+      "particlemodulecolorbase": [
+        "Color"
+      ],
+      "particlemodulecolorbyparameter": [
+        "Parameter Color"
+      ],
+      "particlemodulecoloroverlife": [
+        "Color Over Life"
+      ],
+      "particlemodulecolorscaleoverlife": [
+        "Scale Color/Life"
+      ],
+      "particlemoduleeventbase": [
+        "Event"
+      ],
+      "particlemoduleeventgenerator": [
+        "Event Generator"
+      ],
+      "particlemoduleeventreceiverkillparticles": [
+        "EventRcvr KillAll"
+      ],
+      "particlemoduleeventreceiverspawn": [
+        "EventRcvr Spawn"
+      ],
+      "particlemodulekillbase": [
+        "Kill"
+      ],
+      "particlemodulekillbox": [
+        "Kill Box"
+      ],
+      "particlemodulekillheight": [
+        "Kill Height"
+      ],
+      "particlemodulelifetime": [
+        "Lifetime"
+      ],
+      "particlemodulelifetimebase": [
+        "Lifetime"
+      ],
+      "particlemodulelocation": [
+        "Initial Location"
+      ],
+      "particlemodulelocationactor": [
+        "Actor"
+      ],
+      "particlemodulelocationbase": [
+        "Location"
+      ],
+      "particlemodulelocationdirect": [
+        "Direct Location"
+      ],
+      "particlemodulelocationemitter": [
+        "Emitter InitLoc"
+      ],
+      "particlemodulelocationemitterdirect": [
+        "Emitter DirectLoc"
+      ],
+      "particlemodulelocationprimitivecylinder": [
+        "Cylinder"
+      ],
+      "particlemodulelocationprimitivesphere": [
+        "Sphere"
+      ],
+      "particlemodulematerialbase": [
+        "Material"
+      ],
+      "particlemodulematerialbyparameter": [
+        "Parameter Material"
+      ],
+      "particlemodulemeshmaterial": [
+        "Mesh Material"
+      ],
+      "particlemodulemeshmaterialbyparameter": [
+        "Parameter Mesh Material"
+      ],
+      "particlemodulemeshrotation": [
+        "Init Mesh Rotation"
+      ],
+      "particlemodulemeshrotationrate": [
+        "Init Mesh RotRate"
+      ],
+      "particlemodulemeshrotationratemultiplylife": [
+        "Mesh RotRate/Life"
+      ],
+      "particlemoduleorbit": [
+        "Orbit"
+      ],
+      "particlemoduleorbitbase": [
+        "Orbit"
+      ],
+      "particlemoduleorbitoffset": [
+        "Orbit Offset"
+      ],
+      "particlemoduleorbitrotation": [
+        "Orbit Rotate"
+      ],
+      "particlemoduleorbitrotationrate": [
+        "Orbit RotationRate"
+      ],
+      "particlemoduleorientationaxislock": [
+        "Lock Axis"
+      ],
+      "particlemoduleorientationbase": [
+        "Orientation"
+      ],
+      "particlemoduleparameterbase": [
+        "Parameter"
+      ],
+      "particlemoduleparameterdynamic": [
+        "Dynamic"
+      ],
+      "particlemoduleparameterinitialcolor": [
+        "Init Color (param)"
+      ],
+      "particlemodulerequired": [
+        "Required"
+      ],
+      "particlemodulerotation": [
+        "Initial Rotation"
+      ],
+      "particlemodulerotationbase": [
+        "Rotation"
+      ],
+      "particlemodulerotationoverlifetime": [
+        "Rotation/Life"
+      ],
+      "particlemodulerotationrate": [
+        "Initial RotRate"
+      ],
+      "particlemodulerotationratebase": [
+        "RotationRate"
+      ],
+      "particlemodulerotationratemultiplylife": [
+        "RotRate/Life"
+      ],
+      "particlemodulesize": [
+        "Initial Size"
+      ],
+      "particlemodulesizebase": [
+        "Size"
+      ],
+      "particlemodulesizemultiplylife": [
+        "Size By Life"
+      ],
+      "particlemodulesizemultiplyvelocity": [
+        "Size By Velocity"
+      ],
+      "particlemodulesizescale": [
+        "Size Scale"
+      ],
+      "particlemodulesizescalebytime": [
+        "Size Scale By Time"
+      ],
+      "particlemodulesourcemovement": [
+        "Source Movement"
+      ],
+      "particlemodulespawn": [
+        "Spawn"
+      ],
+      "particlemodulespawnbase": [
+        "Spawn"
+      ],
+      "particlemodulespawnperunit": [
+        "Spawn PerUnit"
+      ],
+      "particlemodulestorespawntime": [
+        "Store Spawn Time"
+      ],
+      "particlemodulestorespawntimebase": [
+        "Store Spawn Time"
+      ],
+      "particlemodulesubuv": [
+        "SubImage Index"
+      ],
+      "particlemodulesubuvbase": [
+        "SubUV"
+      ],
+      "particlemodulesubuvdirect": [
+        "SubUV Direct"
+      ],
+      "particlemodulesubuvmovie": [
+        "SubUV Movie"
+      ],
+      "particlemodulesubuvselect": [
+        "SubUV Select"
+      ],
+      "particlemoduletrailbase": [
+        "Trail"
+      ],
+      "particlemoduletrailsource": [
+        "Source"
+      ],
+      "particlemoduletrailspawn": [
+        "Spawn"
+      ],
+      "particlemoduletrailtaper": [
+        "Taper"
+      ],
+      "particlemoduletypedataanimtrail": [
+        "AnimTrail Data"
+      ],
+      "particlemoduletypedatabeam": [
+        "Beam Data"
+      ],
+      "particlemoduletypedatabeam2": [
+        "Beam Data"
+      ],
+      "particlemoduletypedataflamethrower": [
+        "Flame Thrower"
+      ],
+      "particlemoduletypedatamesh": [
+        "Mesh Data"
+      ],
+      "particlemoduletypedatameshphysx": [
+        "PhysX Mesh Data"
+      ],
+      "particlemoduletypedataphysx": [
+        "PhysX Sprite Data"
+      ],
+      "particlemoduletypedataribbon": [
+        "Ribbon Data"
+      ],
+      "particlemoduletypedatasubuv": [
+        "SubUV Data"
+      ],
+      "particlemoduletypedatatrail": [
+        "Trail Data"
+      ],
+      "particlemoduletypedatatrail2": [
+        "Trail Data"
+      ],
+      "particlemoduleuberbase": [
+        "Uber"
+      ],
+      "particlemoduleuberltisivcl": [
+        "UberLTISIVCL"
+      ],
+      "particlemoduleuberltisivclil": [
+        "UberLTISIVCLIL"
+      ],
+      "particlemoduleuberltisivclilirssblirr": [
+        "UberLTISIVCLILIRSSBLIRR"
+      ],
+      "particlemodulevelocity": [
+        "Initial Velocity"
+      ],
+      "particlemodulevelocitybase": [
+        "Velocity"
+      ],
+      "particlemodulevelocityinheritparent": [
+        "Inherit Parent Vel."
+      ],
+      "particlemodulevelocityoverlifetime": [
+        "Velocity/Life"
+      ],
+      "pbrulenodealternate": [
+        "Alternate"
+      ],
+      "pbrulenodecomment": [
+        "Comment"
+      ],
+      "pbrulenodecorner": [
+        "Corner"
+      ],
+      "pbrulenodeedgeangle": [
+        "EdgeAngle"
+      ],
+      "pbrulenodeedgemesh": [
+        "Edge Mesh"
+      ],
+      "pbrulenodeextracttopbottom": [
+        "Top/Bottom"
+      ],
+      "pbrulenodelodquad": [
+        "LODQuad"
+      ],
+      "pbrulenodemesh": [
+        "Mesh"
+      ],
+      "pbrulenodeocclusion": [
+        "Occlusion"
+      ],
+      "pbrulenodequad": [
+        "Quad"
+      ],
+      "pbrulenoderandom": [
+        "Random"
+      ],
+      "pbrulenoderepeat": [
+        "Repeat"
+      ],
+      "pbrulenodesize": [
+        "Size"
+      ],
+      "pbrulenodesplit": [
+        "Split"
+      ],
+      "pbrulenodesubruleset": [
+        "SubRuleset"
+      ],
+      "pbrulenodetransform": [
+        "Transform"
+      ],
+      "pbrulenodevariation": [
+        "Variation"
+      ],
+      "pbrulenodewindowwall": [
+        "WindowWall"
+      ],
+      "rvrceffectmodulecamerashake": [
+        "Camera Shake"
+      ],
+      "rvrceffectmoduleeffectsmaterial": [
+        "Effects Material"
+      ],
+      "rvrceffectmoduleemitter": [
+        "Emitter"
+      ],
+      "rvrceffectmoduleframebuffer": [
+        "Framebuffer"
+      ],
+      "rvrceffectmodulelensflare": [
+        "Lens Flare"
+      ],
+      "rvrceffectmodulelifetime": [
+        "Lifetime"
+      ],
+      "rvrceffectmodulelight": [
+        "Light"
+      ],
+      "rvrceffectmodulelocation": [
+        "Location"
+      ],
+      "rvrceffectmodulemeta": [
+        "Meta"
+      ],
+      "rvrceffectmoduleparameters": [
+        "Parameters"
+      ],
+      "rvrceffectmoduleradialblur": [
+        "Radial Blur"
+      ],
+      "rvrceffectmoduleskelmesh": [
+        "Skeletal Mesh"
+      ],
+      "rvrceffectmodulesound": [
+        "Sound"
+      ],
+      "rvrceffectmodulespawnactor": [
+        "Spawn Actor"
+      ],
+      "rvrclienteffect": [
+        "Client Effect"
+      ],
+      "rvrclienteffectbyimpactmaterial": [
+        "Client Effect by Impact Material"
+      ],
+      "rvrclienteffectinstanceconstant": [
+        "Client Effect Instance"
+      ],
+      "rvrclienteffectinterface": [
+        "Client Effect"
+      ],
+      "rvrclienteffectmulti": [
+        "Multi Client Effect"
+      ],
+      "rvrclienteffecttrigger": [
+        "Client Effect Trigger"
+      ],
+      "sfxgameinterptrackprocfoley": [
+        "Procedural Foley Track"
+      ],
+      "sfxgameinterptrackwwisemiclock": [
+        "Wwise Mic Lock Track"
+      ],
+      "sfxinterptrack_moveto": [
+        "SFX Move-To Track"
+      ],
+      "sfxinterptrackattachcrusteffect": [
+        "SFX Crust Effect Track DEPRECATED"
+      ],
+      "sfxinterptrackattachtoactor": [
+        "SFX Attach To Actor Track"
+      ],
+      "sfxinterptrackattachvfxtoobject": [
+        "SFX Attach VFX Track DEPRECATED"
+      ],
+      "sfxinterptrackblackscreen": [
+        "SFX Black Screen Track"
+      ],
+      "sfxinterptrackclienteffect": [
+        "SFX Client Effect Track"
+      ],
+      "sfxinterptrackdestroy": [
+        "SFX Destory Track"
+      ],
+      "sfxinterptrackforcelightenvupdate": [
+        "SFX Force Light Env Update Track"
+      ],
+      "sfxinterptracklightenvquality": [
+        "SFX Light Env Quality Track"
+      ],
+      "sfxinterptrackmoviebink": [
+        "SFX Bink Track"
+      ],
+      "sfxinterptrackmovietexture": [
+        "SFX Movie Texture Track"
+      ],
+      "sfxinterptrackplayfaceonlyvo": [
+        "SFX Play FOVO Track"
+      ],
+      "sfxinterptracksetenveffectintensity": [
+        "SFX Set Effect Intensity Track"
+      ],
+      "sfxinterptracksetplayernearclipplane": [
+        "SFX Set Player Near Clip Track"
+      ],
+      "sfxinterptracksetweaponinstant": [
+        "SFX Set Weapon (Instant) Track"
+      ],
+      "sfxinterptracktoggleaffectedbyhiteffects": [
+        "SFX Toggle Hit Effects Track"
+      ],
+      "sfxinterptracktogglehidden": [
+        "SFX Toggle Hidden Track"
+      ],
+      "sfxinterptracktogglelightenvironment": [
+        "SFX Toggle Light Env Track"
+      ],
+      "soundnodeattenuation": [
+        "Attenuation"
+      ],
+      "soundnodeconcatenator": [
+        "Concatenator"
+      ],
+      "soundnodedelay": [
+        "Delay"
+      ],
+      "soundnodedistancecrossfade": [
+        "Distance CrossFade"
+      ],
+      "soundnodelooping": [
+        "Looping"
+      ],
+      "soundnodemature": [
+        "Sound Node Mature"
+      ],
+      "soundnodemixer": [
+        "Mixer"
+      ],
+      "soundnodemodulator": [
+        "Modulator"
+      ],
+      "soundnodemodulatorcontinuous": [
+        "Continuous Modulator"
+      ],
+      "soundnodeoscillator": [
+        "Oscillator"
+      ],
+      "soundnoderandom": [
+        "Random"
+      ],
+      "uibutton": [
+        "Button [[Standard]]"
+      ],
+      "uicalloutbuttonpanel": [
+        "Panel [Button Panel]"
+      ],
+      "uicheckbox": [
+        "Checkbox"
+      ],
+      "uicombobox": [
+        "Combobox"
+      ],
+      "uicomp_autoalignment": [
+        "Generic Alignment"
+      ],
+      "uicomp_drawimage": [
+        "Image Component"
+      ],
+      "uicomp_drawstring": [
+        "Text Component"
+      ],
+      "uicomp_listelementsorter": [
+        "Generic Sort Component (Alpha)"
+      ],
+      "uicomp_listpresenter": [
+        "Report View"
+      ],
+      "uicomp_listpresentertree": [
+        "Tree View (not implemented)"
+      ],
+      "uieditbox": [
+        "Editbox [[Standard]]"
+      ],
+      "uiimage": [
+        "Image"
+      ],
+      "uilabel": [
+        "Label [[Standard]]"
+      ],
+      "uilabelbutton": [
+        "Label [Button]"
+      ],
+      "uilist": [
+        "List [[Standard]]"
+      ],
+      "uimeshwidget": [
+        "Panel [3D-Mesh Container]"
+      ],
+      "uimessagebox": [
+        "Generic Message Box"
+      ],
+      "uinavigationlist": [
+        "List [Navigation]"
+      ],
+      "uinumericeditbox": [
+        "Editbox [Numeric]"
+      ],
+      "uinumericoptionlist": [
+        "List [Cycle Numeric Value]"
+      ],
+      "uiobjectlist": [
+        "List [Widget Collection]"
+      ],
+      "uioptionlist": [
+        "List [Cycle Value]"
+      ],
+      "uipanel": [
+        "Panel [[Standard]]"
+      ],
+      "uiprogressbar": [
+        "Progress Bar"
+      ],
+      "uisaferegionpanel": [
+        "Panel [Safe-Region]"
+      ],
+      "uiscene": [
+        "Generic UIScene"
+      ],
+      "uiscrollframe": [
+        "Panel [Scrolling Panel]"
+      ],
+      "uislider": [
+        "Slider"
+      ],
+      "uistate_active": [
+        "Active"
+      ],
+      "uistate_disabled": [
+        "Disabled"
+      ],
+      "uistate_enabled": [
+        "Enabled"
+      ],
+      "uistate_focused": [
+        "Focused"
+      ],
+      "uistate_pressed": [
+        "Pressed"
+      ],
+      "uistate_targetedtab": [
+        "Targeted TabButton"
+      ],
+      "uistyle_combo": [
+        "Combo"
+      ],
+      "uistyle_image": [
+        "Image"
+      ],
+      "uistyle_text": [
+        "Text"
+      ],
+      "uitabcontrol": [
+        "Tab Control"
+      ],
+      "uitabpage": [
+        "Tab Page"
+      ],
+      "uitogglebutton": [
+        "Button [Toggle]"
+      ]
+    }
+  }
+}

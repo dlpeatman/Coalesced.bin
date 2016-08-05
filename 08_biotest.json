@@ -1,0 +1,538 @@
+{
+  "name": "..\\..\\biogame\\config\\biotest.ini",
+  "sections": {
+    "cistest_flag1_is_false=false rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=true)"
+      ],
+      "conditionalid": [
+        "949"
+      ],
+      "description": [
+        "Verify testing a plot flag is equal to false returns false."
+      ],
+      "expectedresult": [
+        "false"
+      ]
+    },
+    "cistest_flag1_is_false=true rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=false)"
+      ],
+      "conditionalid": [
+        "949"
+      ],
+      "description": [
+        "Verify testing a plot flag is equal to false returns true."
+      ],
+      "expectedresult": [
+        "true"
+      ]
+    },
+    "cistest_flag1_is_not_false=false rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=false)"
+      ],
+      "conditionalid": [
+        "951"
+      ],
+      "description": [
+        "Verify testing a plot flag is not false returns false."
+      ],
+      "expectedresult": [
+        "false"
+      ]
+    },
+    "cistest_flag1_is_not_false=true rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=true)"
+      ],
+      "conditionalid": [
+        "951"
+      ],
+      "description": [
+        "Verify testing a plot flag is not false returns true."
+      ],
+      "expectedresult": [
+        "true"
+      ]
+    },
+    "cistest_flag1_is_not_true=false rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=true)"
+      ],
+      "conditionalid": [
+        "950"
+      ],
+      "description": [
+        "Verify testing a plot flag is not true returns false."
+      ],
+      "expectedresult": [
+        "false"
+      ]
+    },
+    "cistest_flag1_is_not_true=true rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=false)"
+      ],
+      "conditionalid": [
+        "950"
+      ],
+      "description": [
+        "Verify testing a plot flag is not true returns true."
+      ],
+      "expectedresult": [
+        "true"
+      ]
+    },
+    "cistest_flag1_is_true=false rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=false)"
+      ],
+      "conditionalid": [
+        "948"
+      ],
+      "description": [
+        "Verify testing a plot flag is equal to true returns false."
+      ],
+      "expectedresult": [
+        "false"
+      ]
+    },
+    "cistest_flag1_is_true=true rvrunittestconditional": {
+      "argument": [
+        "0"
+      ],
+      "bools": [
+        "(id=20068,value=true)"
+      ],
+      "conditionalid": [
+        "948"
+      ],
+      "description": [
+        "Verify testing a plot flag is equal to true returns true."
+      ],
+      "expectedresult": [
+        "true"
+      ]
+    },
+    "configuration": {
+      "unittesteditorframework": [
+        "EditorTest.UnitTestRunnerEditor"
+      ],
+      "unittestframework": [
+        "SFXTest.BioUnitTestRunnerSP"
+      ]
+    },
+    "consoleunittesting.ps3": {
+      "applicationpath": [
+        "-app:\"Binaries/PS3/BioGame-PS3%s.elf\""
+      ],
+      "consolepathformat": [
+        "-console:\"%s\""
+      ],
+      "consolewaitseconds": [
+        "5"
+      ],
+      "logpathformat": [
+        "-logpath:\"%s\""
+      ],
+      "paramformat": [
+        "-params:\"%s\""
+      ],
+      "rootlogpath": [
+        "..\\..\\BIOGame\\Logs\\ConsoleUnitTests_PS3\\"
+      ],
+      "serverwaitseconds": [
+        "45"
+      ],
+      "snifftoolpath": [
+        "..\\..\\BioTools\\Binaries\\360Sniff.exe"
+      ],
+      "staticswitches": [
+        "-noui -nocopy -timeout:600"
+      ],
+      "unittestbinaries": [
+        "Debug",
+        "Release",
+        "ReleaseLTCG"
+      ]
+    },
+    "consoleunittesting.xenon": {
+      "applicationpath": [
+        "-app:\"xe:\\ME3-UNITTEST\\BioGame-Xe%s.xex\""
+      ],
+      "consolepathformat": [
+        "-console:\"%s\""
+      ],
+      "consolewaitseconds": [
+        "20"
+      ],
+      "logpathformat": [
+        "-logpath:\"%s\""
+      ],
+      "paramformat": [
+        "-params:\"%s\""
+      ],
+      "rootlogpath": [
+        "..\\..\\BIOGame\\Logs\\ConsoleUnitTests_Xenon\\"
+      ],
+      "serverwaitseconds": [
+        "45"
+      ],
+      "snifftoolpath": [
+        "..\\..\\BioTools\\Binaries\\360Sniff.exe"
+      ],
+      "staticswitches": [
+        "-noui -nocopy -timeout:600"
+      ],
+      "unittestbinaries": [
+        "Debug",
+        "Release",
+        "ReleaseLTCG"
+      ]
+    },
+    "contenttesting": {
+      "contentpackages": [
+        "SFXContentTest"
+      ]
+    },
+    "editortest.unittestbasiceditor": {
+      "m_soneofeveryresourcepackage": [
+        "..\\..\\BIOGame\\Content\\Packages\\UnitTests\\TestOneOfEveryResource.upk"
+      ],
+      "m_sstaticmeshresource": [
+        "EditorMeshes.TexPropCube"
+      ]
+    },
+    "editortest.unittestgenericbrowser": {
+      "m_sstaticmeshresource": [
+        "EditorMeshes.TexPropCube"
+      ]
+    },
+    "editortest.unittestrunnereditor": {
+      "m_fmaxtesttime": [
+        "0;"
+      ],
+      "m_nheapcheckfrequency": [
+        "100"
+      ]
+    },
+    "enginetest.unittestrunner": {
+      "m_fmaxtesttime": [
+        "0;"
+      ],
+      "m_nheapcheckfrequency": [
+        "100"
+      ]
+    },
+    "iniversion": {
+      "0": [
+        "3580499817.000000"
+      ],
+      "1": [
+        "4818676181.000000"
+      ]
+    },
+    "sfxeditor.biotesttexturelocalisation": {
+      "locpackagenames": [
+        "BioT_Localisation"
+      ],
+      "searchpaths": [
+        "..\\..\\BIOGame\\Content\\"
+      ]
+    },
+    "sfxeditortest.sfxunittestkismet": {
+      "m_ssequencereferencepath": [
+        "BioTestResources.Subscripts.Elevator"
+      ],
+      "m_ssequencereferencetitle": [
+        "Elevator"
+      ],
+      "m_stestpawnasset": [
+        "BioTestResources.Actors.ConvTestActor"
+      ]
+    },
+    "sfxtest.bioseqact_creaturelog": {
+      "creaturetoprofile": [
+        "char_Enemies.Archetypes.Cerberus.AssaultTrooper",
+        "char_Enemies.Archetypes.Cerberus.Centurion",
+        "char_Enemies.Archetypes.Cerberus.Engineer",
+        "char_Enemies.Archetypes.Cerberus.Guardian",
+        "char_Enemies.Archetypes.Cerberus.Nemesis",
+        "char_Enemies.Archetypes.Cerberus.Atlas",
+        "char_Enemies.Archetypes.Reapers.Cannibal",
+        "char_Enemies.Archetypes.Reapers.Marauder",
+        "char_Enemies.Archetypes.Reapers.Brute",
+        "char_Enemies.Archetypes.Reapers.Banshee",
+        "char_Enemies.Archetypes.Reapers.Harvester",
+        "char_Enemies.Archetypes.Reapers.Husk",
+        "char_Enemies.Archetypes.Reapers.Ravager",
+        "char_Enemies.Archetypes.Geth.GethTrooper",
+        "char_Enemies.Archetypes.Geth.GethRocketTrooper",
+        "char_Enemies.Archetypes.Geth.GethPyro",
+        "char_Enemies.Archetypes.Geth.GethHunter",
+        "char_Enemies.Archetypes.Geth.GethPrime",
+        "char_Enemies.Archetypes.Cerberus.Phantom"
+      ]
+    },
+    "sfxtest.biounittestbini": {
+      "binarizedfile": [
+        "Cooked%PLATFORM%\\Coalesced.bin"
+      ],
+      "configdir": [
+        "..\\..\\BIOGame\\Config\\"
+      ],
+      "testfiles": [
+        "bioengine.ini"
+      ]
+    },
+    "sfxtest.biounittestconversations": {
+      "m_freplayscripttimeout": [
+        "60.0"
+      ],
+      "m_stestconversation": [
+        "unittest_conversation_D.unittest_conversation_dlg"
+      ],
+      "m_stestgestureanim": [
+        "BIOG_HMM_DL_A.HMM_DL_StandingDefault.DL_PointForward"
+      ],
+      "m_stestpawnasset": [
+        "SFX_Appearance_Human.HumanMale.Shepard_Preview_Archetype"
+      ],
+      "m_stestposeanim": [
+        "BIOG_HMM_DL_A.HMM_DL_StandingDefault.DL_Idle"
+      ]
+    },
+    "sfxtest.biounittestmpmatchmakingbot": {
+      "m_bskipmmbottest": [
+        "true"
+      ]
+    },
+    "sfxtest.biounittestrunnermp": {
+      "clientcount": [
+        "2"
+      ]
+    },
+    "sfxtest.biounittestsave": {
+      "m_fcurrentxp": [
+        "0"
+      ],
+      "m_flocationx": [
+        "0"
+      ],
+      "m_flocationy": [
+        "0"
+      ],
+      "m_flocationz": [
+        "0"
+      ],
+      "m_fmaxloadtime": [
+        "60"
+      ],
+      "m_m_sclassname": [
+        "Soldier"
+      ],
+      "m_ndeletetime": [
+        "1"
+      ],
+      "m_ngalaxystate": [
+        "3"
+      ],
+      "m_ngalaxystate_galaxy": [
+        "1"
+      ],
+      "m_ngalaxystate_system": [
+        "3"
+      ],
+      "m_ngalaxystateindex": [
+        "10164"
+      ],
+      "m_nlevel": [
+        "0"
+      ],
+      "m_nloadtime": [
+        "3"
+      ],
+      "m_nnotoriety": [
+        "1"
+      ],
+      "m_noverwritetime": [
+        "1"
+      ],
+      "m_npendingaction": [
+        "0"
+      ],
+      "m_npendingtype": [
+        "0"
+      ],
+      "m_nsaveslot": [
+        "1"
+      ],
+      "m_nsavetime": [
+        "3"
+      ],
+      "m_ntalentpoints": [
+        "0"
+      ],
+      "m_scareername": [
+        "UnitTest_Career"
+      ],
+      "m_slevelname": [
+        "Entry"
+      ],
+      "m_sme2savenamepc": [
+        "ME2Save.pcsav"
+      ],
+      "m_sme2savenameps3": [
+        "ME2Save.pssav"
+      ],
+      "m_sme2savenamexbox": [
+        "ME2Save.xbsav"
+      ],
+      "m_splayername": [
+        "John"
+      ]
+    },
+    "sfxtest.sfxunittestguimainmp": {
+      "bskipguitests": [
+        "true"
+      ],
+      "characterbuttonpath": [
+        "screen.m_CharacterButtons.listHolder.item0"
+      ],
+      "characterlistitem1path": [
+        "screen.m_CharacterList.listHolder.item1"
+      ],
+      "characterlistitem2path": [
+        "screen.m_CharacterList.listHolder.item2"
+      ],
+      "characterlistitem3path": [
+        "screen.m_CharacterList.listHolder.item3"
+      ],
+      "createcharacterbuttonpath": [
+        "screen.ConfirmButton"
+      ],
+      "createcharacterclass1path": [
+        "screen.Classes.listHolder.item1"
+      ],
+      "createcharacterlistitempath": [
+        "screen.m_CharacterList.listHolder.item3"
+      ],
+      "createcharacterselectbuttonpath": [
+        "SelectButton"
+      ],
+      "custommatchbuttonpath": [
+        "screen.m_MenuButtons.listHolder.item1"
+      ],
+      "custommatchscreenbackbutton": [
+        "PCController.PCBtnRight"
+      ],
+      "defaulttestdelay": [
+        "0.5"
+      ],
+      "defaulttesttimeout": [
+        "5.0"
+      ],
+      "deletecharacterbuttonpath": [
+        "m_PCDeleteButton"
+      ],
+      "kititem0path": [
+        "screen.m_KitPanel.listHolder.item0"
+      ],
+      "leaderboardsbuttonpath": [
+        "screen.m_MenuButtons.listHolder.item2"
+      ],
+      "leaderboardscreenbackbutton": [
+        "screen.m_PCButtonExit"
+      ],
+      "lobbyleaderboardsbuttonpath": [
+        "screen.m_MatchButtons.listHolder.item2"
+      ],
+      "markerclipname": [
+        "MarkerClip0"
+      ],
+      "matchresultscontinuebuttonpath": [
+        "PC_ContinueButton"
+      ],
+      "matchrewardscontinuebuttonpath": [
+        "PC_ContinueButton"
+      ],
+      "matchsettingsbuttonpath": [
+        "screen.m_MatchButtons.listHolder.item1"
+      ],
+      "matchsettingsscreenbackbutton": [
+        "PCController.PCBtnRight"
+      ],
+      "numtintswatchrows": [
+        "4"
+      ],
+      "objectiveprogressbarpath": [
+        "ObjectiveBar.objectiveBar"
+      ],
+      "playerindicatoronframe": [
+        "2"
+      ],
+      "playerindicatorpath": [
+        "screen.m_PlayerList.listHolder.item0.slot.titleBarHolder.ready"
+      ],
+      "readybuttoncheckboxpath": [
+        "screen.m_MatchButtons.listHolder.item0.checkbox"
+      ],
+      "readybuttononframe": [
+        "2"
+      ],
+      "readybuttonpath": [
+        "screen.m_MatchButtons.listHolder.item0"
+      ],
+      "scoreboardpath": [
+        "screen.Scoreboard"
+      ],
+      "scoretagpath": [
+        "ScoreTagInstance"
+      ],
+      "selectcharacterbuttonpath": [
+        "m_PCSelectButton"
+      ],
+      "storebuttonpath": [
+        "screen.m_CharacterButtons.listHolder.item2"
+      ],
+      "storescreenbackbutton": [
+        "mcBackButton"
+      ],
+      "talentslevelupscreenbackbutton": [
+        "PCButtonB"
+      ],
+      "tintswatch1path": [
+        "screen.TintHolder.ArmorTintPanel.ArmorTintSwatch1"
+      ],
+      "toggledetailsbuttonpath": [
+        "PC_SwitchButton"
+      ],
+      "weaponsbuttonpath": [
+        "screen.m_CharacterButtons.listHolder.item1"
+      ]
+    }
+  }
+}

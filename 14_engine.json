@@ -1,0 +1,870 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\engine.int",
+  "sections": {
+    "accesscontrol": {
+      "acdesctext[0]": [
+        "If this password is set, players will have to enter it to join this server."
+      ],
+      "acdesctext[1]": [
+        "Specifies IP addresses or address ranges which have been banned."
+      ],
+      "acdesctext[2]": [
+        "Password required to login with administrator privileges on this server."
+      ],
+      "acdisplaytext[0]": [
+        "Game Password"
+      ],
+      "acdisplaytext[1]": [
+        "Access Policies"
+      ],
+      "acdisplaytext[2]": [
+        "Admin Password"
+      ],
+      "defaultkickreason": [
+        "None specified"
+      ],
+      "idlekickreason": [
+        "Kicked for idling."
+      ],
+      "ipbanned": [
+        "Your IP address has been banned on this server."
+      ],
+      "kickedmsg": [
+        "You have been forcibly removed from the game."
+      ],
+      "needpassword": [
+        "You need to enter a password to join this game."
+      ],
+      "sessionbanned": [
+        "Your IP address has been banned from the current game session."
+      ],
+      "wrongpassword": [
+        "The password you entered is incorrect."
+      ]
+    },
+    "console": {
+      "classcaption": [
+        "Standard Unreal Console"
+      ]
+    },
+    "consolebufferstyle": {
+      "stylename": [
+        "Console Buffer Combo Style"
+      ]
+    },
+    "consolebuffertextimagestyle": {
+      "stylename": [
+        "Console Buffer Background Style"
+      ]
+    },
+    "consolebuffertextstyle": {
+      "stylename": [
+        "Console Buffer Text Style"
+      ]
+    },
+    "consoleimagestyle": {
+      "stylename": [
+        "Console Border Style"
+      ]
+    },
+    "consolestyle": {
+      "stylename": [
+        "Console Combo Style"
+      ]
+    },
+    "consoletextstyle": {
+      "stylename": [
+        "Console Text Style"
+      ]
+    },
+    "cursorimagestyle": {
+      "stylename": [
+        "Cursor Style"
+      ]
+    },
+    "damagetype": {
+      "deathstring": [
+        "`o was killed by `k."
+      ],
+      "femalesuicide": [
+        "`o killed herself."
+      ],
+      "malesuicide": [
+        "`o killed himself."
+      ]
+    },
+    "dmgtype_fell": {
+      "deathstring": [
+        "`k pushed `o over the edge."
+      ],
+      "femalesuicide": [
+        "`o left a small crater"
+      ],
+      "malesuicide": [
+        "`o left a small crater"
+      ]
+    },
+    "dmgtype_suicided": {
+      "deathstring": [
+        "`o had an aneurysm."
+      ],
+      "femalesuicide": [
+        "`o had an aneurysm."
+      ],
+      "malesuicide": [
+        "`o had an aneurysm."
+      ]
+    },
+    "dmgtype_telefragged": {
+      "deathstring": [
+        "`o was telefragged by `k"
+      ],
+      "femalesuicide": [
+        "`o was telefragged by `k"
+      ],
+      "malesuicide": [
+        "`o was telefragged by `k"
+      ]
+    },
+    "errors": {
+      "aborttoentry": [
+        "Failed; returning to Entry"
+      ],
+      "challocate": [
+        "Couldn't allocate channel"
+      ],
+      "clientoutdated": [
+        "The match you are trying to join is running an incompatible version of the game.  Please try upgrading your game version."
+      ],
+      "connectionfailed": [
+        "Your connection to the host has been lost."
+      ],
+      "connectionfailed_title": [
+        "Connection Lost"
+      ],
+      "connectiontimeout": [
+        "Your connection to the host timed out"
+      ],
+      "creatematcherror": [
+        "Error creating match"
+      ],
+      "debuggerpresenterror": [
+        "The game has detected that you are currently running a user-mode or kernel-mode debugger and cannot continue.  Please exit all debugging utilities and restart the game."
+      ],
+      "downloadfailed": [
+        "Downloading package '`~' failed: `~"
+      ],
+      "failedbrowse": [
+        "Failed to enter `~: `~. Please check the log for errors."
+      ],
+      "failedfindpackage": [
+        "Failed to find required package '`~'"
+      ],
+      "failedmapload_notfound": [
+        "The map specified on the commandline '`~' could not be found. Would you like to load the default map instead?"
+      ],
+      "invalidlink": [
+        "Invalid Link: `~"
+      ],
+      "invalidurl": [
+        "You cannot join the match because the host has downloadable content you do not."
+      ],
+      "listen": [
+        "Listen failed: `~"
+      ],
+      "loadentry": [
+        "Can't load Entry: `~"
+      ],
+      "loadplayerclass": [
+        "Failed to load player class"
+      ],
+      "negativedeltatime": [
+        "CPU time drift detected! Please consult release notes on how to address this."
+      ],
+      "netalready": [
+        "Already networking"
+      ],
+      "netclose": [
+        "Error closing file"
+      ],
+      "nethdspace": [
+        "There is not enough space on your HDD to download the package. You will need to free some space to download packages."
+      ],
+      "netinvalid": [
+        "Received invalid file request"
+      ],
+      "netlisten": [
+        "Listen failed: No linker context available"
+      ],
+      "netmove": [
+        "Error moving file"
+      ],
+      "netopen": [
+        "Error opening file"
+      ],
+      "netrefused": [
+        "Server refused to send '`~'"
+      ],
+      "netsize": [
+        "File size mismatch"
+      ],
+      "networkinit": [
+        "Error initializing network layer."
+      ],
+      "netwrite": [
+        "Error writing to file"
+      ],
+      "nodownload": [
+        "You cannot join the match because the host has downloadable content you do not."
+      ],
+      "pending": [
+        "Pending connect to '`~' failed; `~"
+      ],
+      "requestdenied": [
+        "Server requested file from pending level: Denied"
+      ],
+      "serverlisten": [
+        "Dedicated server can't listen: `~"
+      ],
+      "serveropen": [
+        "Servers can't open network URLs"
+      ],
+      "serveroutdated": [
+        "Server's version is outdated"
+      ],
+      "usedcheatcommands": [
+        "Console commands were used which are disallowed in netplay.  You must restart the game to create a match."
+      ]
+    },
+    "examplegamemenu": {
+      "cancelbuttontext": [
+        "Return To Game"
+      ],
+      "inlinefontsampletext": [
+        "These words are small... <Fonts:EngineFonts.LargeFont>these words are big,<Fonts:/> and these words are back to normal."
+      ],
+      "inlinestylesampletext": [
+        "These words are normal... <Styles:ConsoleStyle>these words are green<Styles:/> and these words are normal too."
+      ],
+      "reloadbuttontext": [
+        "Reload Map"
+      ],
+      "respawnbuttontext": [
+        "Respawn Player"
+      ],
+      "splitscreenbuttontext": [
+        "Splitscreen Test Scene"
+      ]
+    },
+    "failedconnect": {
+      "failmessage[0]": [
+        "FAILED TO JOIN GAME.  NEED PASSWORD."
+      ],
+      "failmessage[1]": [
+        "FAILED TO JOIN GAME.  WRONG PASSWORD."
+      ],
+      "failmessage[2]": [
+        "FAILED TO JOIN GAME.  GAME HAS STARTED."
+      ],
+      "failmessage[3]": [
+        "FAILED TO JOIN GAME."
+      ]
+    },
+    "gameinfo": {
+      "defaultplayername": [
+        "Player"
+      ],
+      "gamename": [
+        "Game"
+      ]
+    },
+    "gamemessage": {
+      "arbitrationmessage": [
+        "The session has already started."
+      ],
+      "becamespectator": [
+        "became a spectator."
+      ],
+      "cantbeplayer": [
+        "Sorry, you cannot become an active player at this time."
+      ],
+      "cantbespectator": [
+        "Sorry, you cannot become a spectator at this time."
+      ],
+      "enteredmessage": [
+        "entered the game."
+      ],
+      "failedplacemessage": [
+        "Could not find a starting spot"
+      ],
+      "failedspawnmessage": [
+        "Could not spawn player"
+      ],
+      "failedteammessage": [
+        "Could not find team for player"
+      ],
+      "globalnamechange": [
+        "changed name to"
+      ],
+      "kickwarning": [
+        "You are about to be kicked for idling!"
+      ],
+      "leftmessage": [
+        "left the game."
+      ],
+      "maxedoutmessage": [
+        "Server is already at capacity."
+      ],
+      "musthavestats": [
+        "Must have stats enabled to join this server."
+      ],
+      "newplayermessage": [
+        "A new player entered the game."
+      ],
+      "newspecmessage": [
+        "A spectator entered the game/"
+      ],
+      "newteammessage": [
+        "is now on"
+      ],
+      "nonamechange": [
+        "Name is already in use."
+      ],
+      "overtimemessage": [
+        "Score tied at the end of regulation. Sudden Death Overtime!!!"
+      ],
+      "specenteredmessage": [
+        "joined as a spectator."
+      ],
+      "switchlevelmessage": [
+        "Switching Levels"
+      ],
+      "votepassed": [
+        "Vote passed."
+      ],
+      "votestarted": [
+        "started a vote."
+      ]
+    },
+    "gameviewportclient": {
+      "connectingmessage": [
+        "CONNECTING"
+      ],
+      "loadingmessage": [
+        "LOADING"
+      ],
+      "pausedmessage": [
+        "PAUSED"
+      ],
+      "precachingmessage": [
+        "PRECACHING"
+      ],
+      "savingmessage": [
+        "SAVING"
+      ]
+    },
+    "general": {
+      "upgrade": [
+        "To enter this server, you need the latest free update to Unreal available from Epic's Web site:"
+      ],
+      "upgradequestion": [
+        "Do you want to launch your web browser and go to the upgrade page now?"
+      ],
+      "upgradeurl": [
+        "http://www.unreal.com/upgrade"
+      ],
+      "version": [
+        "Version `~"
+      ]
+    },
+    "hud": {
+      "connectingmessage": [
+        "CONNECTING"
+      ],
+      "loadingmessage": [
+        "LOADING"
+      ],
+      "pausedmessage": [
+        "PAUSED"
+      ],
+      "savingmessage": [
+        "SAVING"
+      ]
+    },
+    "inventory": {
+      "pickupmessage": [
+        "Snagged an item."
+      ]
+    },
+    "levelinfo": {
+      "title": [
+        "Untitled"
+      ]
+    },
+    "mastermd5commandlet": {
+      "helpcmd": [
+        "mastermd5"
+      ],
+      "helpdesc[0]": [
+        "Creates a new MD5 database"
+      ],
+      "helpdesc[1]": [
+        "Adds new packages to the database"
+      ],
+      "helpdesc[2]": [
+        "Show the current database."
+      ],
+      "helpdesc[3]": [
+        "Force the revision of all entries to <param>"
+      ],
+      "helponeliner": [
+        "Manipulate the Master MD5 database"
+      ],
+      "helpparm[0]": [
+        "-c"
+      ],
+      "helpparm[1]": [
+        "-a"
+      ],
+      "helpparm[2]": [
+        "-s"
+      ],
+      "helpparm[3]": [
+        "-r"
+      ],
+      "helpusage": [
+        "mastermd5 [-option..] <params>"
+      ],
+      "helpweblink": [
+        "http://unreal.epicgames.com/servertips.htm"
+      ]
+    },
+    "menu": {
+      "centerstring": [
+        "Center"
+      ],
+      "disabledstring": [
+        "Disabled"
+      ],
+      "enabledstring": [
+        "Enabled"
+      ],
+      "helpmessage": [
+        ""
+      ],
+      "helpmessage[1]": [
+        "This menu has not yet been implemented."
+      ],
+      "leftstring": [
+        "Left"
+      ],
+      "menulist": [
+        ""
+      ],
+      "nostring": [
+        "no"
+      ],
+      "rightstring": [
+        "Right"
+      ],
+      "yesstring": [
+        "yes"
+      ]
+    },
+    "onlinegamesettings": {
+      "averageskillrating.friendlyname": [
+        "Skill Rating"
+      ],
+      "ballowinvites.friendlyname": [
+        "Invites Allowed"
+      ],
+      "ballowjoininprogress.friendlyname": [
+        "Join In Progress Allowed"
+      ],
+      "ballowjoinviapresence.friendlyname": [
+        "Join Via Presence Allowed"
+      ],
+      "banticheatprotected.friendlyname": [
+        "Anti-Cheat Protected"
+      ],
+      "bisdedicated.friendlyname": [
+        "Dedicated"
+      ],
+      "bislanmatch.friendlyname": [
+        "Lan Match"
+      ],
+      "bislistplay.friendlyname": [
+        "ListPlay"
+      ],
+      "bshouldadvertise.friendlyname": [
+        "Advertise"
+      ],
+      "busesarbitration.friendlyname": [
+        "Arbitration"
+      ],
+      "busespresence.friendlyname": [
+        "Presence Enabled"
+      ],
+      "busesstats.friendlyname": [
+        "Uses Stats"
+      ],
+      "numopenprivateconnections.friendlyname": [
+        "Open Private Slots"
+      ],
+      "numopenpublicconnections.friendlyname": [
+        "Open Public Slots"
+      ],
+      "numprivateconnections.friendlyname": [
+        "Max Private Slots"
+      ],
+      "numpublicconnections.friendlyname": [
+        "Max Public Slots"
+      ],
+      "owningplayername.friendlyname": [
+        "Server"
+      ],
+      "pinginms.friendlyname": [
+        "Ping"
+      ]
+    },
+    "onlineprofilesettings": {
+      "ownermappings[0]": [
+        "(Name=\"None\")"
+      ],
+      "ownermappings[1]": [
+        "(Name=\"Online Service Setting\")"
+      ],
+      "ownermappings[2]": [
+        "(Name=\"Game Setting\")"
+      ],
+      "profilemappings[0]": [
+        "(ValueMappings=((Name=\"Off\"),(Name=\"On\")))"
+      ],
+      "profilemappings[1]": [
+        "(ValueMappings=((Name=\"Off\"),(Name=\"On\")))"
+      ],
+      "profilemappings[10]": [
+        "(ValueMappings=((Name=\"Off\"),(Name=\"On\")))"
+      ],
+      "profilemappings[11]": [
+        "(ValueMappings=((Name=\"Left Thumbstick\"),(Name=\"Right Thumbstick\")))"
+      ],
+      "profilemappings[12]": [
+        "(ValueMappings=((Name=\"Auto\"),(Name=\"Manual\")))"
+      ],
+      "profilemappings[13]": [
+        "(ValueMappings=((Name=\"Behind\"),(Name=\"Front\"),(Name=\"Inside\")))"
+      ],
+      "profilemappings[14]": [
+        "(ValueMappings=((Name=\"Trigger\"),(Name=\"Button\")))"
+      ],
+      "profilemappings[15]": [
+        "(ValueMappings=((Name=\"Trigger\"),(Name=\"Button\")))"
+      ],
+      "profilemappings[2]": [
+        "(ValueMappings=((Name=\"No\"),(Name=\"Yes\")))"
+      ],
+      "profilemappings[3]": [
+        "(ValueMappings=((Name=\"Off\"),(Name=\"On\"),(Name=\"Both\")))"
+      ],
+      "profilemappings[5]": [
+        "(ValueMappings=((Name=\"Normal\"),(Name=\"Easy\"),(Name=\"Hard\")))"
+      ],
+      "profilemappings[6]": [
+        "(ValueMappings=((Name=\"Medium\"),(Name=\"Low\"),(Name=\"High\")))"
+      ],
+      "profilemappings[7]": [
+        "(ValueMappings=((Name=\"None\"),(Name=\"Black\"),(Name=\"White\"),(Name=\"Yellow\"),(Name=\"Orange\"),(Name=\"Pink\"),(Name=\"Red\"),(Name=\"Purple\"),(Name=\"Blue\"),(Name=\"Green\"),(Name=\"Brown\"),(Name=\"Silver\")))"
+      ],
+      "profilemappings[8]": [
+        "(ValueMappings=((Name=\"None\"),(Name=\"Black\"),(Name=\"White\"),(Name=\"Yellow\"),(Name=\"Orange\"),(Name=\"Pink\"),(Name=\"Red\"),(Name=\"Purple\"),(Name=\"Blue\"),(Name=\"Green\"),(Name=\"Brown\"),(Name=\"Silver\")))"
+      ],
+      "profilemappings[9]": [
+        "(ValueMappings=((Name=\"Off\"),(Name=\"On\")))"
+      ]
+    },
+    "playercontroller": {
+      "nopausemessage": [
+        "Game is not pauseable"
+      ],
+      "owncamera": [
+        "Now viewing from own camera"
+      ],
+      "quicksavestring": [
+        "Quick Saving"
+      ],
+      "viewingfrom": [
+        "Now viewing from"
+      ]
+    },
+    "playerreplicationinfo": {
+      "stringspectating": [
+        "Spectating"
+      ],
+      "stringunknown": [
+        "Unknown"
+      ]
+    },
+    "progress": {
+      "cancelledconnect": [
+        "Cancelled Connect Attempt"
+      ],
+      "connecting": [
+        "Connecting..."
+      ],
+      "connectingtext": [
+        "Connecting:"
+      ],
+      "connectingurl": [
+        "unreal://`~/`~"
+      ],
+      "listening": [
+        "Listening for clients..."
+      ],
+      "loading": [
+        "Loading"
+      ],
+      "netreceiveok": [
+        "Successfully received '`~'"
+      ],
+      "netreceiving": [
+        "Receiving '`~': `~/`~"
+      ],
+      "netsend": [
+        "Sending '`~'"
+      ],
+      "netsending": [
+        "Sending '`~': `~/`~"
+      ],
+      "paused": [
+        "Paused by `~"
+      ],
+      "receivefile": [
+        "Receiving '`~'"
+      ],
+      "receiveoptionalfile": [
+        "Receiving optional file '`~'"
+      ],
+      "receivesize": [
+        "Size `~K, Complete `3.1~`~"
+      ],
+      "runningnet": [
+        "`~: `~ (`~ players)"
+      ],
+      "saving": [
+        "Saving"
+      ],
+      "success": [
+        "Success"
+      ]
+    },
+    "public": {
+      "object[0]": [
+        "(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)"
+      ],
+      "object[1]": [
+        "(Name=Engine.MasterMD5Commandlet,Class=Class,MetaClass=Core.Commandlet)"
+      ],
+      "object[2]": [
+        "(Name=Engine.SmokeTestCommandlet,Class=Class,MetaClass=Core.Commandlet)"
+      ]
+    },
+    "servercommandlet": {
+      "helpdescription": [
+        "Network game server"
+      ],
+      "helpparamdescriptions[0]": [
+        "Specify the log file to generate"
+      ],
+      "helpparamdescriptions[1]": [
+        "Give all players admin privelages"
+      ],
+      "helpparamnames[0]": [
+        "Log"
+      ],
+      "helpparamnames[1]": [
+        "AllAdmin"
+      ],
+      "helpusage": [
+        "server map.unr[?game=gametype] [-option...] [parm=value]..."
+      ],
+      "helpweblink": [
+        "http://unreal.epicgames.com/servertips.htm"
+      ]
+    },
+    "smoketestcommandlet": {
+      "helpdescription": [
+        "This commandlet runs a series of tests to validate a build"
+      ],
+      "helpparamdescriptions[0]": [
+        "Runs the game as a server for one tick to validate startup and first frame code"
+      ],
+      "helpparamdescriptions[1]": [
+        "Validates that all native classes match their script classes in member layout"
+      ],
+      "helpparamnames[0]": [
+        "SERVER"
+      ],
+      "helpparamnames[1]": [
+        "CHECK_NATIVE_CLASS_SIZES"
+      ],
+      "helpusage": [
+        "gamename.exe smoketest <SERVER | CHECK_NATIVE_CLASS_SIZES>"
+      ],
+      "helpweblink": [
+        ""
+      ]
+    },
+    "teaminfo": {
+      "teamname": [
+        "Team"
+      ]
+    },
+    "testmenustrings": {
+      "buttontesttext": [
+        "The button has been clicked <SceneData:ButtonClickCount> times."
+      ],
+      "playerindextext": [
+        "The propagated PlayerIndex is: <SceneData:PlayerIndex>."
+      ],
+      "wrapstringtest": [
+        "This is just some nonsense text that will be used for testing various string auto-sizing features. This really long string is a great one to use for testing the wrapping functionality of a UIString.  In fact, there are so many characters in this string that it is great for testing many different features of a UIString."
+      ]
+    },
+    "uidataprovider_onlinefriendmessages": {
+      "bisfriendinvitecol": [
+        "Friend Invitation"
+      ],
+      "bwasacceptedcol": [
+        "Friend Was Accepted"
+      ],
+      "bwasdeniedcol": [
+        "Friend Was Denied"
+      ],
+      "messagecol": [
+        "Message"
+      ],
+      "sendingplayernamecol": [
+        "Sender's Name"
+      ]
+    },
+    "uidataprovider_onlinefriends": {
+      "awaytext": [
+        "Away"
+      ],
+      "bhasvoicesupportcol": [
+        "Has Voice Support"
+      ],
+      "bisjoinablecol": [
+        "Is Joinable"
+      ],
+      "bisonlinecol": [
+        "Is Online"
+      ],
+      "bisplayingcol": [
+        "Is Playing"
+      ],
+      "bisplayingthisgamecol": [
+        "Is Playing This Game"
+      ],
+      "busytext": [
+        "Busy"
+      ],
+      "nicknamecol": [
+        "Name"
+      ],
+      "offlinetext": [
+        "Offline"
+      ],
+      "onlinetext": [
+        "Online"
+      ],
+      "presenceinfocol": [
+        "Online Status"
+      ]
+    },
+    "uidataprovider_onlinepartychatlist": {
+      "nattypes": [
+        "Unknown"
+      ]
+    },
+    "uidatastore_onlinestats": {
+      "playernickdata.playernickcolumnname": [
+        "Player Nick"
+      ],
+      "ranknamemetadata.rankcolumnname": [
+        "Rank"
+      ]
+    },
+    "uieditbox": {
+      "initialvalue": [
+        "Initial Editbox Value"
+      ]
+    },
+    "uievent_onenterstate": {
+      "description": [
+        "Activated whenever a widget enters a new menu state, such as disabled or focused"
+      ],
+      "displayname": [
+        "Enter State"
+      ]
+    },
+    "uievent_onleavestate": {
+      "description": [
+        "Activated whenever a widget leaves a menu state, such as disabled or focused"
+      ],
+      "displayname": [
+        "Leave State"
+      ]
+    },
+    "uievent_processinput": {
+      "description": [
+        "Executes actions in response to an input event, such as a keypress or mouse movement"
+      ],
+      "displayname": [
+        "Process Input"
+      ]
+    },
+    "uinumericeditbox": {
+      "decrementbuttonname": [
+        "Decrement Button"
+      ],
+      "incrementbuttonname": [
+        "Increment Button"
+      ]
+    },
+    "uistyle": {
+      "stylename": [
+        "Default Style"
+      ]
+    },
+    "uistyle_image": {
+      "stylename": [
+        "Default Image Style"
+      ]
+    },
+    "uistyle_text": {
+      "stylename": [
+        "Default Text Style"
+      ]
+    },
+    "viewportstatus": {
+      "occlusionchild": [
+        "Occlusion Child"
+      ],
+      "renderingfrozene": [
+        "Rendering frozen..."
+      ]
+    },
+    "watervolume": {
+      "locationname": [
+        "under water"
+      ]
+    },
+    "weapon": {
+      "itemname": [
+        "Weapon"
+      ]
+    }
+  }
+}

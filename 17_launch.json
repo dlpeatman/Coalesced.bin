@@ -1,0 +1,42 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\launch.int",
+  "sections": {
+    "errors": {
+      "error_failedtocreated3d9device": [
+        "Failed to create the D3D9 Device!  This can happen if the desktop is locked.  Retry?"
+      ],
+      "error_modifiedcode": [
+        "Modified executable code is not allowed. Please reinstall the game."
+      ],
+      "error_notminspec": [
+        "Your hardware does not meet the minimum requiremts. Do you want to continue?"
+      ],
+      "error_parentalcontrols": [
+        "The current level of parental controls do not allow you to run this game."
+      ],
+      "error_purevirtualsenabled": [
+        "The game cannot run with CHECK_PUREVIRTUALS enabled.  Please disable CHECK_PUREVIRTUALS and rebuild the executable."
+      ],
+      "error_remotedesktop": [
+        "This game cannot run with 3D graphics over a Remote Desktop connection."
+      ],
+      "error_resolutiontoolow": [
+        "The current resolution is too low to run this game."
+      ]
+    },
+    "general": {
+      "exit": [
+        "UnrealEngine3 (Exiting)"
+      ],
+      "product": [
+        "UnrealEngine3"
+      ],
+      "run": [
+        "UnrealEngine3 (Running)"
+      ],
+      "start": [
+        "UnrealEngine3 (Starting)"
+      ]
+    }
+  }
+}

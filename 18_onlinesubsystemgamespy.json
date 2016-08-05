@@ -1,0 +1,16 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\onlinesubsystemgamespy.int",
+  "sections": {
+    "onlinesubsystemgamespy": {
+      "defaultstatus": [
+        "Playing"
+      ],
+      "gameinvitemessage": [
+        "Would you like to play a game?"
+      ],
+      "localprofilename": [
+        "Player"
+      ]
+    }
+  }
+}

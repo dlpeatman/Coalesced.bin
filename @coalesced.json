@@ -1,0 +1,30 @@
+{
+  "endian": 0,
+  "version": 1,
+  "files": [
+    "00_bioai.json",
+    "01_biocompat.json",
+    "02_biocredits.json",
+    "03_biodifficulty.json",
+    "04_bioengine.json",
+    "05_biogame.json",
+    "06_bioinput.json",
+    "07_biolightmass.json",
+    "08_biotest.json",
+    "09_bioui.json",
+    "10_bioweapon.json",
+    "11_core.json",
+    "12_descriptions.json",
+    "13_editortips.json",
+    "14_engine.json",
+    "15_gfxui.json",
+    "16_ipdrv.json",
+    "17_launch.json",
+    "18_onlinesubsystemgamespy.json",
+    "19_startup.json",
+    "20_subtitles.json",
+    "21_unrealed.json",
+    "22_windrv.json",
+    "23_xwindow.json"
+  ]
+}

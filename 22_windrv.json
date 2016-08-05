@@ -1,0 +1,49 @@
+{
+  "name": "..\\..\\engine\\localization\\int\\windrv.int",
+  "sections": {
+    "errors": {
+      "ddrawmode": [
+        "DirectDraw was unable to set the requested video mode"
+      ],
+      "failed3d": [
+        "3d hardware initialization failed"
+      ]
+    },
+    "general": {
+      "advancedoptions": [
+        "Advanced Options"
+      ],
+      "color16": [
+        "&16-bit color"
+      ],
+      "color32": [
+        "&32-bit color"
+      ],
+      "viewother": [
+        "Viewport"
+      ],
+      "viewpersp": [
+        "Perspective map"
+      ],
+      "viewxy": [
+        "Overhead map"
+      ],
+      "viewxz": [
+        "XZ map"
+      ],
+      "viewyz": [
+        "YZ map"
+      ]
+    },
+    "public": {
+      "class": [
+        "(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)"
+      ]
+    },
+    "windowsclient": {
+      "classcaption": [
+        "Standard Windows Manager"
+      ]
+    }
+  }
+}
