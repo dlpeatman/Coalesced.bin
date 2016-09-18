@@ -8319,16 +8319,16 @@
         "true"
       ],
       "damage": [
-        "(X=1000.0,Y=1000.0)"
+        "(X=514.1,Y=642.6)"
       ],
       "distancepenetrated": [
-        "100"
+        "25"
       ],
       "ejectshellcasingtimeratio": [
         "0.463f"
       ],
       "encumbranceweight": [
-        "(X=0.0f,Y=0.0f)"
+        "(X=2.5f,Y=2.0f)"
       ],
       "generaldescription": [
         "707214"
@@ -8346,7 +8346,7 @@
         "0.5"
       ],
       "magsize": [
-        "(X=40,Y=40)"
+        "(X=3,Y=3)"
       ],
       "maxaimerror": [
         "(X=3.1,Y=3.1)"
@@ -8355,7 +8355,7 @@
         "0.25"
       ],
       "maxspareammo": [
-        "(X=200,Y=200)"
+        "(X=15,Y=25)"
       ],
       "maxzoomaimerror": [
         "(X=0.f,Y=0.f)"
@@ -8388,13 +8388,13 @@
         "692577"
       ],
       "rateoffire": [
-        "(X=180,Y=180)"
+        "(X=60,Y=60)"
       ],
       "rateoffireai": [
         "1.0f"
       ],
       "recoil": [
-        "(X=0.0f,Y=0.0f)"
+        "(X=5.5f,Y=5.5f)"
       ],
       "recoilfadespeed": [
         "0.0f"
@@ -8409,7 +8409,7 @@
         "2.0f"
       ],
       "reloadduration": [
-        "(X=1.00f,Y=1.00f)"
+        "(X=2.97f,Y=2.97f)"
       ],
       "shortdescription": [
         "707215"
@@ -8436,7 +8436,7 @@
         "(X=0.5f,Y=0.5f)"
       ],
       "zoomrecoil": [
-        "(X=0.0,Y=0.0)"
+        "(X=3.0,Y=3.0)"
       ],
       "zoomsnaplist": [
         "( AimNode=AimNode_Cover, OuterSnapAngle=5, InnerSnapAngle=0.5, SnapOffsetMag=20 )",
