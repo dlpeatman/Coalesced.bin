@@ -2789,7 +2789,7 @@
         "TRUE"
       ],
       "damage": [
-        "(X=47.6,Y=59.6)"
+        "(X=70.0,Y=210.0)"
       ],
       "ejectshellcasingtimeratio": [
         "0.460f"
@@ -2810,25 +2810,25 @@
         "12"
       ],
       "magsize": [
-        "(X=60,Y=60)"
+        "(X=90,Y=180)"
       ],
       "maxaimerror": [
-        "(X=5.5,Y=5.5)"
+        "(X=4.0,Y=2.0)"
       ],
       "maxspareammo": [
-        "(X=320,Y=400)"
+        "(X=360,Y=720)"
       ],
       "maxzoomaimerror": [
-        "(X=2.5,Y=2.5)"
+        "(X=1.5,Y=1.0)"
       ],
       "maxzoomcrosshairrange": [
         "(X=52,Y=52)"
       ],
       "minaimerror": [
-        "(X=2.0,Y=2.0)"
+        "(X=1.0,Y=0.5)"
       ],
       "minzoomaimerror": [
-        "(X=1.2f,Y=1.2f)"
+        "(X=1.2f,Y=0.5f)"
       ],
       "minzoomcrosshairrange": [
         "(X=37,Y=37)"
@@ -2843,13 +2843,13 @@
         "209729"
       ],
       "rateoffire": [
-        "(X=650,Y=650)"
+        "(X=900,Y=1800)"
       ],
       "rateoffireai": [
         "1.0f"
       ],
       "recoil": [
-        "(X=0.41,Y=0.41)"
+        "(X=0.31,Y=0.11)"
       ],
       "recoilfadespeed": [
         "0.0f"
@@ -2858,7 +2858,7 @@
         "0.0f"
       ],
       "recoilyawfrequency": [
-        "0.5f"
+        "0.4f"
       ],
       "recoilyawscale": [
         "0.25f"
@@ -2867,7 +2867,7 @@
         "0.0f"
       ],
       "reloadduration": [
-        "(X=2.9f,Y=2.9f)"
+        "(X=2.9f,Y=1.45f)"
       ],
       "shortdescription": [
         "339279"
@@ -2910,7 +2910,7 @@
         "(X=37.0f,Y=37.0f)"
       ],
       "zoomrecoil": [
-        "(X=0.61,y=0.61)"
+        "(X=0.40,y=0.20)"
       ]
     },
     "sfxgamecontent.sfxweapon_assaultrifle_saber": {
